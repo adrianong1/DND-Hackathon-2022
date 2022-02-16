@@ -1,27 +1,33 @@
+:root {
+    --text-color: #111111;
+    --background-color: #FFFFFF;
+    --border-color: #111111;
+}
+
 #definition-overlay {
     display: none;
     position: absolute;
-    background-color: white;
-    border-style: double;
-    border-color: black;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--border-color);
 }
 
 #definition-overlay > * {
-    padding: 5px;
+    padding: 10px;
 }
 
 #definition-overlay > #acronym {
-    color: black;
     font-size: large;
-    border-bottom: solid;
     border-width: 1px;
 }
 
 #definition-overlay > #definitions-list {
+    font-size: small;
     margin-left: 15px;
 }
 
-#definition-overlay > #definitions-list > .definition {
-    color: black;
-    font-size: small;
+#definition-overlay > #definitions-list > .definition:not(:last-child) {
+    margin-bottom: 5px;
 }

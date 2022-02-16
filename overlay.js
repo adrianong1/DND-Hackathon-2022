@@ -11,7 +11,7 @@ document.body.appendChild(overlayContainer);
 
 window.onclick = (event) => {
     // hide overlay if user clicks outside of overlay
-    if (event.target != overlayContainer) {
+    if (!event.path.includes(overlayContainer)) {
         overlayContainer.style.display = "none";
     }
 }
