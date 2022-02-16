@@ -1,7 +1,12 @@
-:root {
+#definition-overlay {
     --text-color: #111111;
     --background-color: #FFFFFF;
     --border-color: #111111;
+}
+#definition-overlay.dark-mode {
+    --text-color: #FFFFFF;
+    --background-color: #111111;
+    --border-color: #FFFFFF;
 }
 
 #definition-overlay {
