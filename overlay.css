@@ -1,3 +1,4 @@
+/* Variables */
 #definition-overlay {
     --text-color: #111111;
     --background-color: #FFFFFF;
@@ -9,6 +10,8 @@
     --border-color: #FFFFFF;
 }
 
+
+/* Styles */
 #definition-overlay {
     display: none;
     position: absolute;
