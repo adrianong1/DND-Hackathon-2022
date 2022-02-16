@@ -2,4 +2,26 @@
     display: none;
     position: absolute;
     background-color: white;
+    border-style: double;
+    border-color: black;
+}
+
+#definition-overlay > * {
+    padding: 5px;
+}
+
+#definition-overlay > #acronym {
+    color: black;
+    font-size: large;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+#definition-overlay > #definitions-list {
+    margin-left: 15px;
+}
+
+#definition-overlay > #definitions-list > .definition {
+    color: black;
+    font-size: small;
 }
