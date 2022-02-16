@@ -11,8 +11,8 @@ document.body.appendChild(overlayContainer);
 
 window.onclick = (event) => {
     // hide overlay if user clicks outside of overlay
-    if (event.target != overlay) {
-        overlay.style.display = "none";
+    if (event.target != overlayContainer) {
+        overlayContainer.style.display = "none";
     }
 }
 
@@ -26,7 +26,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     acronymContainer.innerHTML = request.text;
 
     definitionListContainer.innerHTML = ""; // clear list
-    definitions = [request.text, request.text, request.text];
+    const definitions = [request.text, request.text, request.text];
     for (const definition of definitions) {
         let definitionContainer = document.createElement("li");
         definitionContainer.classList.add("definition");
