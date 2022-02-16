@@ -2,15 +2,12 @@
     "name": "Acronym Helper",
     "description": "Chrome Extension that helps with DND related acronyms",
     "version": "1.0.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "background": {
-        "scripts": ["./background.js"]
+        "service_worker": "background.js"
     },
-    "options_page":"./options.html",
-    "browser_action":{
+    "action":{
         "default_popup":"popup.html"
     },
-    "permissions":[
-        "tabs","https://google.com/*"
-    ]
+    "permissions": ["storage", "activeTab", "scripting"]
 }
