@@ -3,12 +3,16 @@
     "description": "Chrome Extension that helps with DND related acronyms",
     "version": "1.0.0",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
     "action":{
         "default_popup":"popup.html"
     },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["overlay.js"]
+    }],
     "permissions": [
         "storage",
         "activeTab",

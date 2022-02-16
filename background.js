@@ -12,6 +12,9 @@ chrome.contextMenus.create({
 });
 
 chrome.contextMenus.onClicked.addListener((data, tab) => {
-    console.log(data)
-    console.log(tab)
+    if (tab.id && data.selectionText) {
+        chrome.tabs.sendMessage(tab.id, {text: data.selectionText}, (response) => {
+            console.log(response.definition)
+        });
+    }
 })
