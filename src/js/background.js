@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(() => {
 // create get definition option in menu when right-clicking
 chrome.contextMenus.create({
     id: "definition",
-    title: "Get Definition",
+    title: 'Get definition for "%s"',
     contexts: ["selection"]
 });
 
