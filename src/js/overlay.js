@@ -22,13 +22,12 @@ window.onclick = (event) => {
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     // move overlay to the bottom left corner of the selected text
     selectedTextRect = window.getSelection().getRangeAt(0).getBoundingClientRect();
-    overlayContainer.style.top = selectedTextRect.bottom + "px";
-    overlayContainer.style.left = selectedTextRect.right + "px";
+    overlayContainer.style.top = selectedTextRect.bottom + window.scrollY + "px";
+    overlayContainer.style.left = selectedTextRect.right + window.scrollX + "px";
 
     // setup overlay contents
     acronymContainer.innerHTML = request.text;
-
-    definitionListContainer.innerHTML = ""; // clear list
+    definitionListContainer.innerHTML = ""; // clear children
     const definitions = [request.text, request.text, request.text];
     for (const definition of definitions) {
         let definitionContainer = document.createElement("li");
