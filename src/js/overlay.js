@@ -18,6 +18,12 @@ window.onclick = (event) => {
 }
 
 
+// hide overlay if user resizes the window
+window.onresize = (event) => {
+    overlayContainer.style.display = "none";
+}
+
+
 // listen for sent data from background.js
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     // move overlay to the bottom left corner of the selected text
