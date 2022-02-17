@@ -32,8 +32,6 @@ chrome.contextMenus.create({
 
 // send information to overlay.js about selected text
 chrome.contextMenus.onClicked.addListener((data, tab) => {
-    console.log(data);
-    console.log(tab);
     if (data.menuItemId == "definition") {
         if (tab.id && data.selectionText) {
             chrome.tabs.sendMessage(tab.id, {text: data.selectionText});
