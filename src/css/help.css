@@ -1,0 +1,16 @@
+body {
+    font-family: "Raleway", sans-serif;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+img {
+    width: 50%;
+}
