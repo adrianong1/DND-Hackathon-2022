@@ -1,5 +1,6 @@
 const ACRONYM_MAX_LENGTH = 10
 
+
 // create overlay, hidden for now
 let overlayContainer = document.createElement("div");
 overlayContainer.setAttribute("id", "definition-overlay");
@@ -29,10 +30,15 @@ window.onresize = (event) => {
 // listen for sent data from background.js
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     let acronym = request.text;
-    let definitions = [request.text, request.text, request.text];
+    let definitions = [];
+    
     if (acronym.length > ACRONYM_MAX_LENGTH) {
         acronym = "Make sure the selected text is an acronym!";
-        definitions = [];
+    } else {
+        definitions = getDefinition(acronym);
+        if (definitions.length == 0) {
+            acronym = 'No definition found for "' + acronym + '".';
+        }
     }
 
     // move overlay to the bottom left corner of the selected text
@@ -46,10 +52,25 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     for (const definition of definitions) {
         let definitionContainer = document.createElement("li");
         definitionContainer.classList.add("definition");
-        definitionContainer.innerHTML = definition + "'s definition";
+        definitionContainer.innerHTML = definition;
         definitionListContainer.append(definitionContainer);
     }
 
     // display overlay
     overlayContainer.style.display = "block";
 })
+
+
+function getDefinition(acronym) {
+    let definitions = [];
+    let english_definitions = ENGLISH_ACRONYMS[acronym];
+    let french_definitions = FRENCH_ACRONYMS[acronym];
+
+    if (english_definitions && french_definitions) {
+        definitions = english_definitions.concat(french_definitions);
+    } else {
+        definitions = english_definitions ? english_definitions : french_definitions;
+    }
+
+    return definitions ? definitions : [];
+}
