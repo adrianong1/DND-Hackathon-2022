@@ -3,7 +3,7 @@ import pandas as pd
 
 
 if __name__ == '__main__':
-    with open(os.path.join(__file__, '..', '..', 'src', 'js', 'acronyms.js'), 'w', encoding='utf-8') as output_js:
+    with open(os.path.join(__file__, '..', '..', 'src', 'js', 'acronyms_dict.js'), 'w', encoding='utf-8') as output_js:
         english_data = pd.read_csv(os.path.join(__file__, '..', 'Abbrev_English.csv'))
         output_js.write('const ENGLISH_ACRONYMS = {\n')
         for acronym in english_data['Abbreviation'].unique():
