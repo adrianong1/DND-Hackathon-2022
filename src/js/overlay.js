@@ -1,3 +1,5 @@
+const ACRONYM_MAX_LENGTH = 10
+
 // create overlay, hidden for now
 let overlayContainer = document.createElement("div");
 overlayContainer.setAttribute("id", "definition-overlay");
@@ -26,15 +28,21 @@ window.onresize = (event) => {
 
 // listen for sent data from background.js
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    let acronym = request.text;
+    let definitions = [request.text, request.text, request.text];
+    if (acronym.length > ACRONYM_MAX_LENGTH) {
+        acronym = "Make sure the selected text is an acronym!";
+        definitions = [];
+    }
+
     // move overlay to the bottom left corner of the selected text
     selectedTextRect = window.getSelection().getRangeAt(0).getBoundingClientRect();
     overlayContainer.style.top = selectedTextRect.bottom + window.scrollY + "px";
     overlayContainer.style.left = selectedTextRect.right + window.scrollX + "px";
 
     // setup overlay contents
-    acronymContainer.innerHTML = request.text;
+    acronymContainer.innerHTML = acronym;
     definitionListContainer.innerHTML = ""; // clear children
-    const definitions = [request.text, request.text, request.text];
     for (const definition of definitions) {
         let definitionContainer = document.createElement("li");
         definitionContainer.classList.add("definition");
