@@ -18,4 +18,16 @@ chrome.contextMenus.onClicked.addListener((data, tab) => {
     if (tab.id && data.selectionText) {
         chrome.tabs.sendMessage(tab.id, {text: data.selectionText});
     }
-})
+});
+
+
+chrome.contextMenus.create({
+    id: "help",
+    title: "Help!"
+});
+
+chrome.contextMenus.onClicked.addListener((data, tab) => {
+    chrome.tabs.create({
+        url: "../html/help.html"
+    });
+});
