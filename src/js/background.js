@@ -5,6 +5,16 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 
+// open help page on install
+chrome.runtime.onInstalled.addListener((reason) => {
+    if (reason === chrome.runtime.OnInstalledReason.INSTALL) {
+        chrome.tabs.create({
+            url: "../html/help.html"
+        });
+    }
+});
+
+
 // create get definition option in menu when right-clicking
 chrome.contextMenus.create({
     id: "definition",
