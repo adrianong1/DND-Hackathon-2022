@@ -12,93 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-
-    <link 
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" 
-      rel="stylesheet" 
-      crossorigin="anonymous"
-    />
-
-    <style>
-      html, body {
-          font-family: 'Lora', serif;
-          font-size: 14px;
-          margin: 0;
-          min-height: 180px;
-          padding: 0px;
-          width: 384px;
-      }
-      h1 {
-        font-family: 'Lora', monospace;
-        font-size: 22px;
-        font-weight: 400;
-        margin: 0;
-        color:black
-      }
-
-      a:link, a:visited {
-        color: black;
-        outline: 0;
-        text-decoration: none;
-
-      }
-
-      img{
-        width: 30px;
-      }
-
-      .modal-header{
-        align-items: center;
-        border-bottom: 0.5px solid #dadada;
-      }
-
-      .modal-content{
-        padding: 0 22px;
-      }
-
-      .modal-icons{
-        border-top: 0.5px solid #dadada;
-        height: 50px;
-        width: 100%;
-      }
-
-      .logo{
-        padding: 16px;
-
-      }
-
-      .logo-icon{
-        vertical-align: text-bottom;
-        margin-right: 12px;
-
-      }
-
-      .version{
-        color: #444;
-        font-size: 18px;
-      }
-
-      .flex-container{
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 22px;
-      }
-
-      .flex{
-        opacity: 1;
-        transition: opacity 0.2s ease-in-out;
-        width: 120px;
-      }
-
-      .flex:hover{
-        opacity: 0.4;
-      }
-
-      .flex .fa{
-        font-size: 40px;
-        color: #2f5876;
-      }
-    </style>
     <script src="popup.js"></script>
   </head>
 
@@ -112,29 +25,23 @@
     <div class="modal-content">
       <p>Quick lookup for CAF Abbreviations</p>
     </div>
-    <div class=modal-icons>
-      <div class="flex-container">
-          <div class="flex">
-            <a href="https://google.com" target="_blank">
-              <i class="fa-solid fa-square-info" style="color:darksalmon"></i>
-            </a>
-          </div>
-          <div class="flex">
-            <a href="https://youtube.com" target="_blank">
-              <i class="fa-solid fa-square-e" style="color:blueviolet"></i>
-            </a>
-          </div>          
-          <div class="flex">
-            <a href="https://facebook.com" target="_blank">
-              <i class="fa-solid fa-square-f" style="color:coral"></i>
-            </a>
-          </div>
-          <div class="flex">
-            <a href="https://twitter.com" target="_blank">
-              <i class="fa-brands fa-canadian-maple-leaf" style="color: cornflowerblue;"></i>
-            </a>
-          </div>          
+    <button class="button button1">Help!</button>
+    <fieldset>
+      <legend>Choose your language</legend>
+      <div>
+        <input type="checkbox" id="English" name="language" value="English" checked>
+        <label for="English">English</label>
       </div>
-    </div>
+      <div>
+        <input type="checkbox" id="French" name="language" value="French">
+        <label for="French">French</label>
+      </div>
+      <div class=switches>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+          <label>Light/Dark</label>
+      </div>
+    </fieldset>
   </body>
 </html>

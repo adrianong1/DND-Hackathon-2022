@@ -1,6 +1,24 @@
 // When the button is clicked, inject setPageBackgroundColor into current page
 // Initialize button with user's preferred color
 let changeColor = document.getElementById("changeColor");
+let englishCheckbox = document.getElementById("English");
+let frenchCheckbox = document.getElementById("French");
+
+englishCheckbox.addEventListener('change', e => {
+
+    if(e.target.checked){
+        console.log("English checkboxed");
+        //search in english
+    }
+});
+
+frenchCheckbox.addEventListener('change', e => {
+
+    if(e.target.checked){
+        console.log("French checkboxed");
+        //search in french
+    }
+});
 
 changeColor.addEventListener("click", async () => {
     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
