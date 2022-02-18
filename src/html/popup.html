@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Acronym Helper</title>
     <link rel="stylesheet" href="../css/popup.css">
-    <title>Acronym Helper</title>>
-    <link 
-      rel="stylesheet" 
-      href="https://fonts.googleapis.com/css?family=Open+Sans" 
-      type="text/css"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    <script src="popup.js"></script>
+    <script src="../js/popup.js" defer></script>
+    
   </head>
 
   <body>
+    <button id="changeColor"></button>
     <div class="modal-header">
       <h1 class=logo>
-        <img class="logo-icon" src="/images/icons/icon16.png"/> Acronym Helper 
+        <img class="logo-icon" src="../images/icons/icon128.png"/> Acronym Helper 
         <span class="version">(1.0.0)</span>
       </h1>
     </div>
@@ -36,12 +29,10 @@
         <input type="checkbox" id="French" name="language" value="French">
         <label for="French">French</label>
       </div>
-      <div class=switches>
         <label class="switch">
-          <input type="checkbox">
-          <span class="slider round"></span>
-          <label>Light/Dark</label>
-      </div>
+            <input type="checkbox">
+            <span class="slider round"></span>
+        <label>Light/Dark</label>
     </fieldset>
   </body>
 </html>
