@@ -1,6 +1,6 @@
 {
-    "name": "DND & CAF Acronyms Helper",
-    "description": "Google Chrome Extension that helps with DND and CAF related acronyms",
+    "name": "DND/CAF Acronyms Helper",
+    "description": "Google Chrome extension that helps with DND/CAF related acronyms in both English and French",
     "version": "1.0.0",
     "manifest_version": 3,
     "action":{

@@ -1,7 +1,7 @@
 # DND-Hackathon-2022
 
 ## Description
-We created a Google Chrome extension that helps users get the full terms of DND/CAF acronyms. This will be especially useful for new individuals who are not yet familiar with the wide variety of acronyms utilized through different government documents found on the web. Although, it will come in handy for more experienced users browsing through unfamiliar documents.
+We created a Google Chrome extension that helps with DND/CAF related acronyms in both English and French. This will be especially useful for new individuals who are not yet familiar with the wide variety of acronyms utilized through different government documents found on the web. Although, it will also come in handy for more experienced users browsing through unfamiliar documents.
 
 ---
 
