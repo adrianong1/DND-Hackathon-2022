@@ -1,27 +1,33 @@
-let englishCheckbox = document.getElementById("English");
-let frenchCheckbox = document.getElementById("French");
-
-englishCheckbox.addEventListener('change', e => {
-
-    if(e.target.checked){
-        console.log("English checkboxed");
-        //search in english
+let englishCheckbox = document.getElementById("english-checkbox");
+chrome.storage.sync.get("enable-english", async ({"enable-english": enableEnglish}) => {
+    if (enableEnglish != undefined) {
+        englishCheckbox.checked = enableEnglish;
     }
 });
 
-frenchCheckbox.addEventListener('change', e => {
+englishCheckbox.addEventListener("change", async (event) => {
+    chrome.storage.sync.set({"enable-english": event.target.checked});
+});
 
-    if(e.target.checked){
-        console.log("French checkboxed");
-        //search in french
+
+let frenchCheckbox = document.getElementById("french-checkbox");
+chrome.storage.sync.get("enable-french", async ({"enable-french": enableFrench}) => {
+    if (enableFrench != undefined) {
+        frenchCheckbox.checked = enableFrench;
     }
+});
+
+frenchCheckbox.addEventListener("change", async (event) => {
+    chrome.storage.sync.set({"enable-french": event.target.checked});
 });
 
 
 let darkModeSwitch = document.getElementById("dark-mode-switch");
 chrome.storage.sync.get("dark-mode", async ({"dark-mode": darkMode}) => {
-    darkModeSwitch.checked = darkMode;
-    setDarkMode(darkMode);
+    if (darkMode != undefined) {
+        darkModeSwitch.checked = darkMode;
+        setDarkMode(darkMode);
+    }
 });
 
 darkModeSwitch.addEventListener("change", async (event) => {
