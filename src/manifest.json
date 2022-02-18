@@ -1,22 +1,22 @@
 {
-    "name": "Acronym Helper",
-    "description": "Chrome Extension that helps with DND related acronyms",
+    "name": "DND & CAF Acronyms Helper",
+    "description": "Google Chrome Extension that helps with DND and CAF related acronyms",
     "version": "1.0.0",
     "manifest_version": 3,
     "action":{
         "default_popup":"/html/popup.html",
         "default_icon": {
-            "16": "/images/icon16.png",
-            "32": "/images/icon32.png",
-            "48": "/images/icon48.png",
-            "128": "/images/icon128.png"
+            "16": "/images/icons/icon16.png",
+            "32": "/images/icons/icon32.png",
+            "48": "/images/icons/icon48.png",
+            "128": "/images/icons/icon128.png"
         }
     },
     "icons": {
-        "16": "/images/icon16.png",
-        "32": "/images/icon32.png",
-        "48": "/images/icon48.png",
-        "128": "/images/icon128.png"
+        "16": "/images/icons/icon16.png",
+        "32": "/images/icons/icon32.png",
+        "48": "/images/icons/icon48.png",
+        "128": "/images/icons/icon128.png"
     },
     "background": {
         "service_worker": "/js/background.js"
@@ -24,7 +24,7 @@
     "content_scripts": [{
         "matches": ["<all_urls>"],
         "css": ["/css/overlay.css"],
-        "js": ["/js/overlay.js"]
+        "js": ["/js/overlay.js", "/js/acronyms_dict.js"]
     }],
     "permissions": [
         "storage",
