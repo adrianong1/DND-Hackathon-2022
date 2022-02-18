@@ -1,10 +1,18 @@
+// When the button is clicked, inject setPageBackgroundColor into current page
+// Initialize button with user's preferred color
+let changeColor = document.getElementById("changeColor");
 let englishCheckbox = document.getElementById("English");
 let frenchCheckbox = document.getElementById("French");
+let englishChecked = true;
+let frenchChecked = false;
 
 englishCheckbox.addEventListener('change', e => {
 
     if(e.target.checked){
         console.log("English checkboxed");
+        chrome.storage.sync.set({key: value}, function(){
+            console.log(key + " is set to " + value);
+        })
         //search in english
     }
 });
@@ -17,12 +25,22 @@ frenchCheckbox.addEventListener('change', e => {
     }
 });
 
+changeColor.addEventListener("click", async () => {
+    let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
-// toggle dark mode switch depending on dark mode setting
-chrome.storage.sync.get("dark-mode", async (darkMode) => {
-    darkModeSwitch.checked = darkMode;
-    setDarkMode(darkMode);
+    chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        function: setPageBackgroundColor,
+    });
 });
+  
+// The body of this function will be executed as a content script inside the
+// current page
+function setPageBackgroundColor() {
+    chrome.storage.sync.get("color", ({ color }) => {
+        document.body.style.backgroundColor = color;
+    });
+}
 
 let darkModeSwitch = document.getElementById("dark-mode-switch");
 darkModeSwitch.addEventListener("change", async (event) => {
@@ -34,3 +52,9 @@ async function setDarkMode(darkMode) {
     let [tab] = await chrome.tabs.query({active: true, currentWindow: true});
     chrome.tabs.sendMessage(tab.id, {"dark-mode": darkMode});
 }
+
+// toggle dark mode switch depending on dark mode setting
+chrome.storage.sync.get("dark-mode", async (darkMode) => {
+    darkModeSwitch.checked = darkMode;
+    setDarkMode(darkMode);
+});
