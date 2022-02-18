@@ -26,8 +26,8 @@ We utilized the [National Defence and the Canadian Armed Forces Manual of Abbrev
 4. The extension should now appear alongside your other extensions!
 
 ### (Optional) Updating the Dataset
-1. If the [National Defence and the Canadian Armed Forces Manual of Abbreviations](https://open.canada.ca/data/en/dataset/976bb4f8-2b63-4150-910c-1f8e094cc83a) dataset is updated and you'd like to use the updated version, download the one that is listed by abbreviations to terms - as of right now, this is named <i>Alphabetical listing by abbreviation</i>. This should download an excel file called <i>manabvndataset-abvn.xlsx</i>. You'd need to rename it for the cleaning script to work otherwise.
-2. Once you've downloaded the dataset, install the dependencies needed to run the cleaning script from the `requirements.txt` file (you may want to utilize a Python virtual environment for this):
+1. If the [National Defence and the Canadian Armed Forces Manual of Abbreviations](https://open.canada.ca/data/en/dataset/976bb4f8-2b63-4150-910c-1f8e094cc83a) dataset is updated and you'd like to use the updated version, download the one that is listed by abbreviations to terms - as of right now, this is named <i>Alphabetical listing by abbreviation</i>. This should download an excel file called `manabvndataset-abvn.xlsx`. You'd need to rename it for the cleaning script to work otherwise.
+2. Once you've downloaded the dataset, install the dependencies needed to run the cleaning script from the `requirements.txt` file - you may want to utilize a [Python virtual environment](https://docs.python.org/3/library/venv.html) for this:
 ```
 pip install -r data/requirements.txt
 ```
