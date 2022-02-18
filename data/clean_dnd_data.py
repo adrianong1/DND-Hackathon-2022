@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#clean_DND_data.py
+#clean_dnd_data.py
 
 import pandas as pd
 import numpy as np
