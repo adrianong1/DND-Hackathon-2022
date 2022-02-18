@@ -1,16 +1,36 @@
 body {
-    font-family: "Raleway", sans-serif;
-    padding-left: 20px;
+    font-family: "Lucida Sans";
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px -2px;
 }
 
-li {
+h1 {
+    margin-block-start: 0px;
+    padding: 20px 0px 0px 20px;
+}
+
+div.section {
+    background-color: #EEEEEE;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px -2px;
+}
+
+div.section > h2 {
+    margin: 0px;
+}
+
+div.section > ol > li {
+    font-size: 16px;
     margin-bottom: 30px;
 }
 
-p {
-    margin-bottom: 0px;
+div.section > ol > li > p {
+    margin-bottom: 10px;
 }
 
-img {
-    width: 50%;
+div.section > ol > li > img {
+    width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px -2px;
 }
