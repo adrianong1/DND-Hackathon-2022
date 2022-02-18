@@ -24,7 +24,6 @@ We utilized the [National Defence and the Canadian Armed Forces Manual of Abbrev
 2. Once the Google Chrome's extension page has opened, click on the <i>Load unpacked</i> button on the top left of your window.
 3. A file explorer should appear and go to the directory where you've downloaded this repository, go into the <i>src</i> folder, and then click the <i>Select Folder</i> button.
 4. The extension should now appear alongside your other extensions!
-<br>
 
 ### (Optional) Updating the Dataset
 1. If the [National Defence and the Canadian Armed Forces Manual of Abbreviations](https://open.canada.ca/data/en/dataset/976bb4f8-2b63-4150-910c-1f8e094cc83a) dataset is updated and you'd like to use the updated version, download the one that is listed by abbreviations to terms - as of right now, this is named <i>Alphabetical listing by abbreviation</i>. This should download an excel file called <i>manabvndataset-abvn.xlsx</i>. You'd need to rename it for the cleaning script to work otherwise.
