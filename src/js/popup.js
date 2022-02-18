@@ -19,18 +19,21 @@ frenchCheckbox.addEventListener('change', e => {
 
 
 let darkModeSwitch = document.getElementById("dark-mode-switch");
-darkModeSwitch.addEventListener("change", async (event) => {
-    setDarkMode(event.target.checked);
-});
-
-async function setDarkMode(darkMode) {
-    chrome.storage.sync.set({"dark-mode": darkMode});
-    let [tab] = await chrome.tabs.query({active: true, currentWindow: true});
-    chrome.tabs.sendMessage(tab.id, {"dark-mode": darkMode});
-}
-
-// toggle dark mode switch depending on dark mode setting
-chrome.storage.sync.get("dark-mode", async (darkMode) => {
+chrome.storage.sync.get("dark-mode", async ({"dark-mode": darkMode}) => {
     darkModeSwitch.checked = darkMode;
     setDarkMode(darkMode);
 });
+
+darkModeSwitch.addEventListener("change", async (event) => {
+    darkMode = event.target.checked;
+    chrome.storage.sync.set({"dark-mode": darkMode});
+    setDarkMode(darkMode);
+});
+
+async function setDarkMode(darkMode) {
+    darkMode ?
+        document.body.classList.add("dark-mode") :
+        document.body.classList.remove("dark-mode");
+    let [tab] = await chrome.tabs.query({active: true, currentWindow: true});
+    chrome.tabs.sendMessage(tab.id, {"dark-mode": darkMode});
+}

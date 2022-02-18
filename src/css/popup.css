@@ -19,8 +19,7 @@ html, body {
   padding: 0px;
   width: 384px;
   background-color: var(--background-color);
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px -2px;
+  transition-duration: 0.4s;
 }
 
 h1 {
@@ -58,7 +57,6 @@ img {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    transition-duration: 0.4s;
     cursor: pointer;
   }
 
@@ -122,11 +120,11 @@ li {
 }
 
 input:checked + .slider {
-  background-color: #282828;
+  background-color: var(--background-color);
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #282828;
+input + .slider {
+  box-shadow: 0 0 3px var(--text-color);
 }
 
 input:checked + .slider:before {

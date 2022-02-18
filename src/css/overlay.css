@@ -19,6 +19,7 @@
     background-color: var(--background-color);
     border-radius: 10px;
     box-shadow: 0px 0px 5px -2px;
+    transition-duration: 0.4s;
 }
 
 #definition-overlay > #acronym {
