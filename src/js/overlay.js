@@ -27,15 +27,30 @@ window.onresize = (event) => {
 }
 
 
-// listen for sent data from background.js
+// load dark mode on start up
+chrome.storage.sync.get("dark-mode", async (darkMode) => {
+    setDarkMode(darkMode);
+});
+
+
+// listen for messages from other scripts
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    let acronym = request.text;
+    if (request["text"] != undefined) {
+        setDefinitions(request["text"]);
+    }
+    else if (request["dark-mode"] != undefined) {
+        setDarkMode(request["dark-mode"]);
+    }
+});
+
+
+function setDefinitions(acronym) {
     let definitions = [];
     
     if (acronym.length > ACRONYM_MAX_LENGTH) {
         acronym = "Make sure the selected text is an acronym!";
     } else {
-        definitions = getDefinition(acronym);
+        definitions = getDefinitions(acronym);
         if (definitions.length == 0) {
             acronym = 'No definition found for "' + acronym + '".';
         }
@@ -58,10 +73,10 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
     // display overlay
     overlayContainer.style.display = "block";
-})
+}
 
 
-function getDefinition(acronym) {
+function getDefinitions(acronym) {
     let definitions = [];
     let english_definitions = ENGLISH_ACRONYMS[acronym];
     let french_definitions = FRENCH_ACRONYMS[acronym];
@@ -73,4 +88,11 @@ function getDefinition(acronym) {
     }
 
     return definitions ? definitions : [];
+}
+
+
+function setDarkMode(darkMode) {
+    darkMode ? 
+        overlayContainer.classList.add("dark-mode") :
+        overlayContainer.classList.remove("dark-mode");
 }

@@ -28,11 +28,30 @@ changeColor.addEventListener("click", async () => {
         function: setPageBackgroundColor,
     });
 });
-  
+
+
 // The body of this function will be executed as a content script inside the
 // current page
 function setPageBackgroundColor() {
     chrome.storage.sync.get("color", ({ color }) => {
         document.body.style.backgroundColor = color;
     });
+}
+
+
+// toggle dark mode switch depending on dark mode setting
+chrome.storage.sync.get("dark-mode", async (darkMode) => {
+    darkModeSwitch.checked = darkMode;
+    setDarkMode(darkMode);
+});
+
+let darkModeSwitch = document.getElementById("dark-mode-switch");
+darkModeSwitch.addEventListener("change", async (event) => {
+    setDarkMode(event.target.checked);
+});
+
+async function setDarkMode(darkMode) {
+    chrome.storage.sync.set({"dark-mode": darkMode});
+    let [tab] = await chrome.tabs.query({active: true, currentWindow: true});
+    chrome.tabs.sendMessage(tab.id, {"dark-mode": darkMode});
 }
