@@ -16,23 +16,11 @@ chrome.contextMenus.create({
 });
 
 
-// create help option in context menu
-chrome.contextMenus.create({
-    id: "help",
-    title: "Help!"
-});
-
-
 // send information to overlay.js about selected text
 chrome.contextMenus.onClicked.addListener((data, tab) => {
     if (data.menuItemId == "definition") {
         if (tab.id && data.selectionText) {
             chrome.tabs.sendMessage(tab.id, {text: data.selectionText});
         }
-    }
-    else if (data.menuItemId == "help") {
-        chrome.tabs.create({
-            url: "../html/help.html"
-        });
     }
 });

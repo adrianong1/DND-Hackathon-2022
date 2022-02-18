@@ -1,3 +1,13 @@
+/* Help Button Logic */
+let helpButton = document.getElementById("help-button");
+helpButton.addEventListener("click", (event) => {
+    chrome.tabs.create({
+        url: "../html/help.html"
+    });
+});
+
+
+/* English Checkbox Logic */
 let englishCheckbox = document.getElementById("english-checkbox");
 chrome.storage.sync.get("enable-english", async ({"enable-english": enableEnglish}) => {
     if (enableEnglish != undefined) {
@@ -10,6 +20,7 @@ englishCheckbox.addEventListener("change", async (event) => {
 });
 
 
+/* French Checkbox Logic */
 let frenchCheckbox = document.getElementById("french-checkbox");
 chrome.storage.sync.get("enable-french", async ({"enable-french": enableFrench}) => {
     if (enableFrench != undefined) {
@@ -22,6 +33,7 @@ frenchCheckbox.addEventListener("change", async (event) => {
 });
 
 
+/* Dark Mode Switch Logic */
 let darkModeSwitch = document.getElementById("dark-mode-switch");
 chrome.storage.sync.get("dark-mode", async ({"dark-mode": darkMode}) => {
     if (darkMode != undefined) {
