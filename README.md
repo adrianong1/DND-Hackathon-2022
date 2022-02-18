@@ -34,7 +34,7 @@ pip install -r data/requirements.txt
 ```
 3. Then, run the cleaning script to clean and transform the Excel file to a CSV file:
 ```
-python data/clean_DND_data.py
+python data/clean_dnd_data.py
 ```
 4. Finally, run the final Python script to create a JavaScript dictionary using the generated cleaned CSV files:
 ```
