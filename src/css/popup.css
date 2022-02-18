@@ -1,84 +1,87 @@
-html, body {
-    font-family: 'Lora', serif;
-    font-size: 14px;
-    margin: 0;
-    min-height: 180px;
-    padding: 0px;
-    width: 384px;
+/* Variables */
+body {
+  --text-color: #111111;
+  --background-color: #FFFFFF;
 }
+
+body.dark-mode {
+  --text-color: #FFFFFF;
+  --background-color: #282828;
+}
+
+
+/* Styles */
+html, body {
+  font-family: "Lucida Sans";
+  font-size: 14px;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0px;
+  width: 384px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px -2px;
+}
+
 h1 {
-  font-family: 'Lora', monospace;
+  display: inline-block;
   font-size: 22px;
   font-weight: 400;
   margin: 0;
-  color:black
 }
 
-a:link, a:visited {
-  color: black;
-  outline: 0;
-  text-decoration: none;
-
-}
-
-img{
+img {
   width: 30px;
-}
-
-.modal-header{
-  align-items: center;
-  border-bottom: 0.5px solid #dadada;
-}
-
-.modal-content{
-  padding: 0 22px;
-}
-
-.modal-icons{
-  border-top: 0.5px solid #dadada;
-  height: 50px;
-  width: 100%;
-}
-
-.logo{
-  padding: 16px;
-
-}
-
-.logo-icon{
   vertical-align: text-bottom;
   margin-right: 12px;
-
 }
 
-.version{
-  color: #444;
+.modal-header {
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+  padding: 16px;
+}
+
+.modal-content {
+  padding: 10px 22px;
+}
+
+
+.version {
   font-size: 18px;
 }
 
 .button {
     border: none;
     color: white;
-    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  
-  .button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #bb655e;
-  }
-  
-  .button1:hover {
-    background-color: #bb655e;
-    color: white;
-  }
+
+.button#help-button {
+  float: right;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--background-color); 
+  color: var(--text-color); 
+  border: 3px solid var(--text-color);
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
 
 .switch {
   position: relative;
@@ -119,11 +122,11 @@ img{
 }
 
 input:checked + .slider {
-  background-color: #e05c5c;
+  background-color: #282828;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #e05c5c;
+  box-shadow: 0 0 1px #282828;
 }
 
 input:checked + .slider:before {

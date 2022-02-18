@@ -4,34 +4,31 @@
     <title>Acronym Helper</title>
     <link rel="stylesheet" href="../css/popup.css">
     <script src="../js/popup.js" defer></script>
-    
   </head>
 
   <body>
     <div class="modal-header">
-      <h1 class=logo>
-        <img class="logo-icon" src="../images/icons/icon128.png"/> Acronym Helper 
-        <span class="version">(1.0.0)</span>
-      </h1>
+      <img src="../images/icons/icon128.png"/>
+      <h1>Acronym Helper</h1> 
+      <span class="version">(1.0.0)</span>
+      <button id="help-button" class="button">&#63;</button>
     </div>
     <div class="modal-content">
-      <p>Quick lookup for CAF Abbreviations</p>
-    </div>
-    <button class="button button1">Help!</button>
-    <fieldset>
-      <legend>Choose your language</legend>
-      <div>
-        <input type="checkbox" id="English" name="language" value="English" checked>
-        <label for="English">English</label>
-      </div>
-      <div>
-        <input type="checkbox" id="French" name="language" value="French">
-        <label for="French">French</label>
-      </div>
-        <label class="switch">
+      <ul>
+        <li>
+          <span>Languages:</span>
+          <input type="checkbox" id="English" name="language" value="English" checked>
+          <label for="English">English</label>
+          <input type="checkbox" id="French" name="language" value="French">
+          <label for="French">French</label>
+        </li>
+        <li>
+          <span>Light/Dark Mode:</span>
+          <label class="switch">
             <input id=dark-mode-switch type="checkbox">
             <span class="slider round"></span>
-        <label>Light/Dark</label>
-    </fieldset>
+          </label>
+        </li>
+    </ol>
   </body>
 </html>

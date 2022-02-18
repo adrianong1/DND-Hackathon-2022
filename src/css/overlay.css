@@ -3,6 +3,7 @@
     --text-color: #111111;
     --background-color: #FFFFFF;
 }
+
 #definition-overlay.dark-mode {
     --text-color: #FFFFFF;
     --background-color: #282828;
