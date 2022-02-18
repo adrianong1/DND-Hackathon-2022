@@ -10,6 +10,8 @@ Original file is located at
 import pandas as pd
 import numpy as np
 from langdetect import detect
+from langdetect import DetectorFactory
+DetectorFactory.seed = 0
 
 # ----- Define language detection functions -----
 def isFrench(aString):
@@ -25,15 +27,15 @@ def isEnglish(aString):
     return False
 
 # ----- Separate original file into separate language files -----
-csvDf = pd.read_csv('manabvndataset-abvn.csv', delimiter=',')
+newDf = pd.read_excel('manabvndataset-abvn.xlsx', index_col=None)
 
-abbrev_eng = csvDf['Abbreviation']
-term_eng = csvDf['Term']
+abbrev_eng = newDf['Abbreviation']
+term_eng = newDf['Term']
 frame_eng = {'Abbreviation': abbrev_eng, 'Term': term_eng}
 frame_eng_df = pd.DataFrame(frame_eng)
 
-abbrev_fr = csvDf['Abréviation']
-term_fr = csvDf['Terme']
+abbrev_fr = newDf['Abréviation']
+term_fr = newDf['Terme']
 frame_fr = {'Abréviation': abbrev_fr, 'Terme': term_fr}
 frame_fr_df = pd.DataFrame(frame_fr)
 
@@ -64,5 +66,5 @@ print("\nLength Eng (Removed Duplicates): ", len(frame_eng_df))
 print("Length Fr (Removed Duplicates): ", len(frame_fr_df))
 
 # ----- Export into CSV files -----
-#frame_eng_df.to_csv('Abbrev_English.csv', index=False)
-#frame_fr_df.to_csv('Abbrev_French.csv', index=False)
+frame_eng_df.to_csv('Abbrev_English.csv', index=False)
+frame_fr_df.to_csv('Abbrev_French.csv', index=False)
