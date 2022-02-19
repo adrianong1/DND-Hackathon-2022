@@ -1,4 +1,4 @@
-const ACRONYM_MAX_LENGTH = 10
+const ACRONYM_MAX_LENGTH = 20
 
 // create overlay, hidden for now
 let overlayContainer = document.createElement("div");
@@ -53,6 +53,8 @@ function setOverlay(acronym) {
                 let definitions = [];
                 let english_definitions = enableEnglish ? ENGLISH_ACRONYMS[acronym] : [];
                 let french_definitions = enableFrench ? FRENCH_ACRONYMS[acronym] : [];
+                english_definitions = english_definitions == undefined ? [] : english_definitions;
+                french_definitions = french_definitions == undefined ? [] : french_definitions;
     
                 if (english_definitions && french_definitions) {
                     definitions = english_definitions.concat(french_definitions);
