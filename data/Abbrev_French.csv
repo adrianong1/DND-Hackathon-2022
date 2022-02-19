@@ -2,8 +2,6 @@ Abréviation,Terme
 QG 1 UNITÉ DENT,Quartier général de la 1re Unité dentaire
 10 RAC,10e Régiment d'artillerie de campagne
 11 C Svc S Dét Calgary,11e Centre des Services de santé - Détachement Calgary
-13 Pon PM,13e Peloton de police militaire
-15 Pon PM,15e Peloton de police militaire
 Div DIFA 2 DAC,Division de la doctrine et de l'instruction de la Force aérienne - 2e Division aérienne du Canada
 2 RAC,2e Régiment d'artillerie de campagne
 20 RAC,20e Régiment d'artillerie de campagne
@@ -13,11 +11,7 @@ slt,sous-lieutenant
 GC 3 GSS,3e Groupe de soutien de secteur génie construction
 3 RAC,3e Régiment d'artillerie de campagne
 30 RAC,30e Régiment d'artillerie de campagne
-31 Pon PM,31e Peleton de police militaire
-M/34 GBC,"Musique, 34e Groupe-brigade du Canada"
 "QG 35 GBC, Cie PM","Quartier général du 35e Groupe-brigade du Canada, compagnie de police militaire"
-M/36 GBC,"Musique, 36e Groupe-brigade du Canada"
-48 EG,48e Escadron du génie
 49 RAC,49e (Sault-Sainte-Marie) Régiment d'artillerie de campagne
 QG 5 GSS,Quartier Général du 5e Groupe de Soutien de Secteur
 6 RAC,6e Régiment d'artillerie de campagne
@@ -32,6 +26,7 @@ C Trans AT,Conseil de transformation de l'Armée de terre
 GT Trans AT,Groupe de travail sur la transformation de l'Armée de terre
 ---/I,"intérimaire, par intérim"
 msg A/R,message d'acceptation/refus
+ASM,Anti-sous-marin(e)
 ens 2,enseigne de vaisseau de 2e classe
 AN,Autorité de navigabilité
 AA,antiaérien
@@ -72,7 +67,6 @@ ACEA,autorité de contrôle de l'espace aérien
 CCA,commandant de composante aérienne
 CCZ,centre de contrôle de zone
 SIC CCA,Spécialiste de l'information de la communication - Commandement de la composante aérienne
-O Hébgt,officier de l'hébergement
 compt,compte
 compt,comptabilité
 CADC,Conseiller adjoint - Défense du Canada
@@ -108,12 +102,10 @@ ADATS,système de défense antichar et antiaérienne
 CDA,commandement de la défense aérienne
 RADD,Réseau automatisé de données de la défense
 dest,destinataire
-ADEX,air defence exercise
 ADEX,exercice de défense aérienne
 SADC,Système de données automatisées - Dépenses en carburant 
 TTAD,traitement et transmission automatique des données
 ZIDA,zone d'identification de défense aérienne
-Capt Adjt,capitaine-adjudant
 LDA,ligne de démarcation de l'armistice
 CNS,charge nucléaire statique
 SMA,sous-ministre adjoint
@@ -126,6 +118,7 @@ SMA(AP),Sous-Ministre adjoint (Affaires publiques)
 SMA(Pol),Sous-Ministre adjoint (Politiques)
 SMA(Svc Ex),Sous-Ministre adjoint (Services d'examen)
 SMA(S & T),Sous-Ministre adjoint (Science et technologie)
+admin,administrateur
 cie admin,compagnie d’administration
 OS Admin,officier du soutien administratif
 CODA,centre d’opérations de la défense aérienne
@@ -134,7 +127,6 @@ RDA,région de défense aérienne
 MARC,mode alternatif de résolution des conflits
 SCA,service du courrier aérien
 SDA,système de données d’artillerie
-MDA,mine dispersable par artillerie
 conslr,conseiller
 AOD,absent on duty
 IMLEA,infirmier militaire de liaison d'évacuations aéromédicales
@@ -177,7 +169,6 @@ Rés Air,Réserve aérienne
 AJAG,assistant du juge-avocat général
 MLBA,missile balistique à lanceurs aériens
 MCLA,missile de croisière à lanceur aérien
-indemn,indemnité
 OLFA,officier de liaison des forces aériennes
 IPIO,indemnité – perte d’indemnités opérationnelles
 PchA,point de chargement des ambulances
@@ -191,12 +182,10 @@ posn rechange,position de rechange
 MA,modulation d’amplitude
 ZMA,zone de manoeuvre d’artillerie
 BCMRA,bureau de contrôle de la maintenance et de la réparation des aéronefs
-O Mun,officier des munitions
 AMRAAM,missile air-air perfectionné à moyenne portée
 EMA,escadron de maintenance (air)
 SGA,service de gestion des applications
 AMSL,au-dessus du niveau moyen de la mer
-TAM,tactical aide-mémoire
 UMA,unité des mouvements aériens
 PO fixe,poste d’observation fixe 
 ann,annuel
@@ -224,7 +213,6 @@ SIMA,système informatisé des messages d’affectation
 appx,appendix
 sup,supplies
 cbt sup,combat supplies
-BA,bac aérotransportable
 avr,avril
 PAA,période active des affectations
 GEA,groupe électrogène d’appoint
@@ -232,7 +220,6 @@ NQA,niveau de qualité acceptable
 RA,région aride
 FA,fusil automatique
 GCIA,Groupe-compagnie d’intervention dans l’Arctique
-bde blindée,brigade blindée
 AB,arme blindée
 DB,division blindée
 VBR,véhicule blindé de reconnaissance
@@ -256,9 +243,7 @@ GSS Ops,groupe de soutien de secteur – opérations
 GSS Trans,groupe de soutien de secteur – transmissions
 CRTS,centre du renseignement de toutes sources
 MAS,missile air-surface
-MAN,missile antinavire
 éval,évaluation
-OSC,officier des services comptables
 COAA,centre d’opérations d’appui aérien
 MAAPCP,missile air-air perfectionné à courte portée
 SM dél,Sous-Ministre délégué de la Défense nationale
@@ -289,7 +274,6 @@ AIPRP,accès à l’information et protection des renseignements personnels
 Coord AIPRP,Coordonnateur de l’accès à l’information et de la protection des renseignements personnels
 atq,attaque
 OLTA,officier de liaison – transport aérien
-OTM,officier technicien des munitions
 ATO,ordre d’attribution de mission aérienne
 COTA,centre d’opérations du transport aérien
 CIOT,centre interallié d’opérations tactiques
@@ -303,8 +287,6 @@ MASM,missile air-sous-marin
 Chap,chaplain
 Chap(P),chaplain (Protestant)
 aut,autorité
-aut,autorisation
-aut,autoriser
 aux,auxiliaire
 VA,véhicule aérien
 AVGAS,essence d’aviation
@@ -315,8 +297,6 @@ avr,aviateur
 AWACS,système aéroporté d’alerte et de contrôle
 ASA,absent sans autorisation
 ASP,absent sans permission
-CL,centre line
-APR,air-portable raft
 O Admin B,officier d’administration de la base
 Cmdt B,commandant de la base
 OEM Cmdt B,officier d’état-major du commandant de la base
@@ -372,7 +352,6 @@ PA,planification d’activités
 OAPB,officier des affaires publiques de la base
 GPB,Groupe de planification binational
 BPB,bureau de poste de la base
-PIR,priority intelligence requirements
 BPS,bits par seconde 
 OSPB,officier de sélection du personnel de la base
 SQMB,sergent quartier-maître de batterie
@@ -383,7 +362,6 @@ CS brun,connaissance de la situation – brun
 EC,école de combat
 SUTB,sous-unité tactique de base
 ATB,adjudant technicien de batterie
-commis bie,commis de batterie
 plan act,planificateur d’activités
 GB,guerre biologique
 CS C4ISR,Comité de surveillance du C4ISR
@@ -391,8 +369,6 @@ AC,Armée canadienne
 AC,autorité de certification
 CEMFA,Chef d’état-major de la Force aérienne
 CEMA,Chef d’état-major de l’Armée
-C atq,contre-attaque
-CEMM,Chef d’état-major de la Marine
 MCC,médecin-chef du commandement
 C & A,certification et accréditation
 C2,commandement et contrôle
@@ -432,7 +408,6 @@ OS CMOA,Officier de service du Centre multinational d’opérations aérospatial
 PAC,Patient Administrative Centre
 PAC,patrouille aérienne de combat
 LCdr,lieutenant-commander
-Cdr,commander
 capv,capitaine de vaisseau
 RRAC,revêtement résistant aux agents chimiques
 AAR,appui aérien rapproché
@@ -442,17 +417,14 @@ EAC 2 – MPF,Équipe d’action du CEMD 2 – Mise sur pied d’une force
 EAC 3- CO,Équipe d’action du CEMD 3 – Capacités opérationnelles
 EAC 4 – HI,Équipe d’action du CEMD 4 – Harmonisation institutionnelle
 EACMEC,Équipe d’action du CEMD – Méthodologie d’évaluation des capacités
-BC,battle captain
 CAQ,consigné aux quartiers
 PFC,planification fondée sur les capacités
 CBRN,"chimique, biologique, radiologique et nucléaire"
 SAOCB,système d’acquisition d’objectif de contre-batterie
-O Cbt,officier de combat
 appui tac,appui tactique
 AA cbt,arme d’appui au combat
 appro cbt,approvisionnements de combat
 éqp cbt,équipe de combat
-CBU,arme à dispersion
 ER,élément de ressources
 CC,Conseil des commandants
 CC,Compagnon de l’Ordre du Canada
@@ -469,7 +441,6 @@ CIC,commandant des ingénieurs du corps
 JCC,joint command centre
 O SICC,"officier du système d’information, de commandement et de contrôle"
 CCM,contre-contre-mesure
-OCC,Organisation des cadets du Canada
 JOCC,joint operations coordination centre
 PRB,poste de rassemblement des blessés
 DDC,defensive driving course
@@ -502,14 +473,11 @@ GC,enie construction
 SSMER,Système de simulation de munitions pour engagement rapproché 
 DPE,document pris à l’ennemi
 EPE,équipement pris à l’ennemi
-COMCEN,communication centre
-PD,premier dirigeant
 IET,instruction d’exploitation des transmissions
 PFOEP,Programme de formation des officiers – Éducation permanente
 ECP,écart circulaire probable
 PCU,planification civile d’urgence
 RGC,Régiment du génie de combat
-cert,certify
 PES,poste d’évacuation sanitaire
 EGC,escadron du enie construction
 IPT,instructions enieents des transmissions
@@ -538,7 +506,6 @@ DMFC Rocky Point,Dépôt de munitions des Forces canadiennes Rocky Point
 OAFC,Ordonnances administratives des Forces canadiennes
 CIFCA,Centre d’instruction des Forces canadiennes dans l’Arctique
 CGAFC,Centre de guerre aérospatiale des Forces canadiennes
-BFC,base des Forces canadiennes
 CFC-A,Commandement des Forces multinationales en Afghanistan
 CPCFC,Conseiller plan de campagne des Forces canadiennes
 SCFC,Système de commandement des Forces canadiennes
@@ -591,7 +558,6 @@ SNEFC,Service national des enquêtes des Forces canadiennes
 CORFC,Centre d’opérations des réseaux des Forces canadiennes
 C Fin,chef des finances
 OOFC,Ordonnance d’organisation des Forces canadiennes
-PFC,Publication des Forces canadiennes
 SEPFC,Système d’évaluation du personnel des Forces canadiennes
 BMRPFC,Bureau de modernisation du Régime de pension des Forces canadiennes
 BPFC,bureau de poste des Forces canadiennes
@@ -633,7 +599,6 @@ VCF,violation du cessez-le-feu
 XCC,exercice de commandement en campagne
 CG,centre de gravité
 CG,Garde de cérémonie
-GP,group principal
 CMGC,Catalogue du matériel du gouvernement du Canada
 SCGC,Système de catalogage du gouvernement canadien
 rte,route
@@ -653,9 +618,7 @@ CIC,centre d’information de combat
 CRC,centre de renseignement de la coalition
 BR,brouillage rapproché
 CIOR,Confédération interalliée des officiers de réserve
-PI,panneau d’identification
 EPII,Examen du Programme d’investissements en immobilisations
-JRC,joint regional command
 ERII,Équipe de réaction aux incidents informatiques
 CCMFIC,Centre de coordination des mouvements des Forces interarmées de la coalition
 UIIC-ICBRN,"Unité interarmées d’intervention du Canada – Incidents chimiques, biologiques, radiologiques et nucléaires"
@@ -677,14 +640,12 @@ GC,gestionnaire des carrières
 MC,movement control
 CM,contre-mesure
 MC,missile de croisière
-CM,Membre de l’Ordre du Canada
 GC,gestion de crise
 CMAC,Cour d’appel de la cour martiale du Canada
 GBMC,Groupe-brigade mécanisé du Canada
 CMC,Président du Comité militaire
 cmdt,commandant
 AD Comd,air defence commander
-DCmdt,deputy commandant
 ex comd,exercise commander
 GMC,Service du génie militaire canadien
 DCMM,Dépôt central de matériel médical
@@ -714,7 +675,6 @@ COC,centre des opérations de combat
 C de C,chaîne de commandement
 P de C,passation de commandement
 JCOC,joint command operations centre
-ADOC,air defence operations centre
 CE,centre d’excellence
 FOREOC,force de l’environnement opérationnel contemporain
 C du M,correction du moment
@@ -722,7 +682,6 @@ JOC,joint operations centre
 CI,conflit d’intérêts
 CI,communauté d’intérêts
 regp,regroupement
-coll,collective
 obus fum coul,obus fumigène de couleur
 COM,Commandeur de l’Ordre du mérite des corps policiers
 CENCOM,centre de communications
@@ -735,8 +694,6 @@ comm.,Communicateur
 gp comm,groupe des communications
 Rés Comm dét Shilo,Réserve des Communications – Détachement Shilo
 esc comm,escadron des communications
-Z COMM,zone des communications
-supt clk,superintendent clerk
 contr,contrôleur
 CONTR ACPM - DGSSPM,Contrôleur du Chef adjoint du personnel militaire et du Directeur général - Service de soutien au Personnel militaire
 Contr CFT,Contrôleur du commandement de la Force terrestre
@@ -744,15 +701,10 @@ G SECOM,gardien de la sécurité des communications
 O SECOM,officier de la sécurité des communications
 con,contrôle
 con,contrôler
-EMCON,emission control
 conf,conférence
 CONOPLAN,plan d’opération de contingence
 CONOPS,concept d’opération
-RM guidance,records management guidance
 ops contl,opérations continentales
-O Contrat,officier des contrats
-B Compt,base comptroller
-instr coord,instruction de coordination
 pt coord,point de coordination
 ICSO,image commune de la situation opérationnelle
 minist,ministériel
@@ -760,7 +712,6 @@ EOCA,élément organique de corps d’armée
 CE,changement d’effectif
 CEM,chef d’état-major
 CEM GFI,chef d’état-major de la génération de la force interarmées
-COSCOM,corps support command
 COSCA,commandement de soutien du corps d’armée
 CEM Ops Terre,Chef d’état-major – Opérations terrestres
 ACD COSMIC,agent de contrôle des documents COSMIC
@@ -772,17 +723,14 @@ capt armes,capitaine d’armes
 APC,agent du personnel civil
 PM 1,premier maître de 1re classe
 PM 2,premier maître de 2e classe
-PIR,protection individuelle rapprochée
 RERPC,Rapport d’examen du rendement du personnel civil
 MCMP,Médaille canadienne du maintien de la paix
-QHM Esquimalt,Queen’s Harbour Master Esquimalt
 UPR,Unité de protection rapprochée
 véh PC,véhicule de poste de commandement
 SQMC,sergent quartier-maître de compagnie
 DCD,dépôt central des dossiers
 RF,reconnaissance fighter
 RC,relations avec la clientèle
-ARO,âge de retraite obligatoire
 ZAArC,zone administrative arrière du corps d’armée
 CDC,centre de détection et de contrôle
 CRC (A),Centre de résolution des conflits (Atlantique)
@@ -798,7 +746,6 @@ CEEPC,Centre d’entraînement élémentaire du Polygone de Connaught
 RDC,réseau de détection et de contrôle
 ASIC,all source intelligence centre
 VCR,véhicule de commandement et de reconnaissance
-I/A,ompassiv d’appel
 AR,appui rapproché
 MCSE,moniteur de connaissance situationnelle de l’équipage
 RESCO,recherche et sauvetage de combat
@@ -806,7 +753,6 @@ CST,Centre de la sécurité des télécommunications
 CSTC,Centre de la sécurité des télécommunications Canada
 OGSC,Officier – Génie des systèmes de combat
 GSC,Groupe de soutien du Canada
-SMC,sergent-major de compagnie
 RCCC,Réseau canadien de communications par commutation
 IRSC,Infrastructure du réseau secret consolidé
 RG,recoilless gun
@@ -826,7 +772,6 @@ CVO,Commandeur de l’Ordre royal de Victoria
 GC,guerre chimique
 CAC,convention sur les armes chimiques
 TDGFC,tableau de dotation de guerre des Forces canadiennes
-adjuc,adjudant-chef
 AC,année civile
 REDI,Réseau d’échange Défense – Industrie
 IDP,infrastructure Défense-Partenaires
@@ -837,7 +782,6 @@ D-Net,Réseau de la défense
 ED,évaluation des dommages
 DA,angle de dérive
 cie AD,companie d’action directe
-AASD,automatic artillery survey device
 CDAD,centre de défense aérienne de division
 CAAAD,commandant de l’artillerie antiaérienne divisionnaire
 DMARC,Directeur – Modes alternatifs de résolution de conflits
@@ -868,7 +812,6 @@ CCP,cours de conduit préventive
 DDE,destroyer d’escorte
 DDH,destroyer porte-hélicoptères
 DSOI,Directive du SCEMD pour les opérations internationales
-DDR,"disarmament, demobilisation and reintegration"
 DDR,"désarmement, démobilisation et réintégration"
 déc,décembre
 déc,décroître
@@ -904,8 +847,6 @@ dév,développer
 élab,élaboration
 AED,arme à énergie dirigée
 TD,tir défensif
-FD,force development
-gonio,radiogoniométrie
 PM & E,"personnes à charge, meubles et effets personnels"
 ESFD,Examen de la structure des forces de la défense
 VTAD,véhicule de tir d’appui direct
@@ -930,7 +871,6 @@ OP,officier de plongée
 tp div,troupes divisionnaires
 IP,indemnité de plongée
 plgr,plongeur
-JAA,Juge-avocat adjoint
 JAGA/CEM,Juge avocat général adjoint/Chef d’état-major
 DCGI SGEDP,Directeur – Connaissances et gestion de l’information – Système de gestion électronique des dossiers du personnel
 NCRD,niveau de capacité requis pour le déploiement
@@ -954,7 +894,6 @@ CAAPD,Centre d’apprentissage des Affaires publiques de la Défense
 CPD,Conseil de planification de la défense
 CPD,Comité des plans de défense
 EPD,Examen de la politique de défense
-estaf,estafette
 SCADD,Système de communication d’accès à distance déployable
 RDDC,Recherche et développement pour la défense Canada
 RDDC OSSI,Recherche et développement pour la défense Canada – Officier de la sécurité des systèmes de l’information
@@ -1014,12 +953,9 @@ BDE,barème de distribution de l’équipement
 SIE,Systèmes d’Infrastructure de l’entreprise
 GSTIE,Gestion des services de technologie de l’information d’entreprise 
 éjec,éjection
-ejec,ejection
 électrique,élec
 électron,électronique
 ELINT,renseignement électronique
-AMS,air maintenance squadron
-empl,emplane
 recce boat,reconnaissance boat
 CEM,compatibilité électromagnétique
 CONEM,contrôle d’émission
@@ -1041,10 +977,8 @@ NEM,neutralisation des explosifs et munitions
 IMQ,ingénieur mécanicien de quart
 REM,reconnaissance des explosifs et munitions
 MPE,mesures de protection électronique
-PPE,prepositioned equipment
 éqpt,équipement
 BRE,blindage réactif par explosion
-PIU,plan d’intervention d’urgence
 VAF,vérification approfondie de fiabilité
 CDOE,Centre de disponibilité opérationnelle expéditionnaire
 ERMISS,Système de dragues à influences multiples et résistant aux explosions
@@ -1054,37 +988,28 @@ PPA,projectile à portée accrue
 RPA,roquette à portée accrue
 EIU,équipe d’intervention d’urgence
 Esc G,escadron du génie
-ALSE,aviation life support equipment
 CSE,conseil de ermanent électronique
-comm sqn,communication squadron
 AD Sqn,air demonstration squadron
 ACSS Sqn,air combat service support squadron
-T Sqn,transport squadron
-AESS,air expeditionary support squadron
 MSGE,mesures de soutien de guerre électronique
-NSE,national support element
 RAG,egiont d’appui du génie
 appr,appréciation
 étab,établir
 UAG,unité d’appui du génie
 HAP,heure d’arrivée prévue
-estb,establish
 HAP,heure d’achèvement prévue
-etc,et cetera
 HDP,heure de egion prévue
 HRP,heure de retour prévue
 EEI,Équipe d’entraînement intégrée
 évac,évacuer
 évac,évacuation
 éval,évaluer
-asmt,assessment
 AL,alerte lointaine
 GE,guerre électronique
 CCGE,centre de coordination de guerre électronique
 COGE,centre des opérations de guerre électronique
 RAL,radar d’alerte lointaine
 EENGE,Équipe d’évaluation et de normalisation de la guerre électronique
-exam,examine
 excl,exclusive
 excl,exclusion
 excl,exclusif
@@ -1095,7 +1020,6 @@ dir ex,directeur d’exercise
 expér,expérimentation
 exploi,exploitation
 C de T,champ de tir
-artil C,artillerie de campagne
 VRMAC,véhicule de ravitaillement en munitions d’artillerie de campagne
 CAA,contrôleur aérien avancé
 CZAv,commandement de zone avancée
@@ -1112,7 +1036,6 @@ contr T,contrôleur de tir
 CCI,centre de contrôle d’une installation
 SCT,système de conduite de tir
 DF,développement des forces
-Amb C,ambulance de campagne
 RAC,egiont d’artillerie de campagne
 ISE,indemnité de service à l’étranger
 CDC,caserne de détention de campagne
@@ -1126,7 +1049,6 @@ RG,ermanen du génie
 EG,escadron du génie
 CTC,centre de tir de campagne
 PCFAC,Projet de capacité future en matière d’avions chasseurs
-TE,tir d’efficacité
 APR,adapté pour radio
 MPF,mise sur pied d’une force
 ITFMS,Infrastructure terrestre fédérée pour les missions satellites
@@ -1137,7 +1059,6 @@ FIS,service d’information de vol
 CCLA,centre de contrôle logistique avancé
 LAFE,ligne avant des forces ennemies
 GLA,groupe logistique avancé
-FLIP,publication d’information de vol
 SGCL,Système de gestion des carburants et lubrifiants
 COLA,centre d’opérations logistiques avancé
 O Log Fmn,Officier de logistique (Formation)
@@ -1154,7 +1075,6 @@ BOA,base d’opérations avancée
 FOB,base d’opérations avancée
 FOD,dommage par corps étranger
 PLO,première langue officielle
-OOA,officier observateur avancé
 PF,protection des forces
 TA,tir d’arrêt
 XLA,exercice à libre action
@@ -1174,7 +1094,6 @@ VTA,véhicule de tir d’appui
 ETC,équipe de transfusion de campagne
 EITA,escadron d’instruction technique appliquée
 XEC,exercice d’entraînement en campagne
-RS,egion de suivi
 fus,fusilier
 Fus du St-L,Les Fusiliers du St-Laurent
 Fus MR,Les Fusiliers Mont-Royal
@@ -1198,7 +1117,6 @@ ABBG,airborne brigade group
 CAS,capteur au sol
 CM,crisis management
 GC,gouvernement du Canada
-GCA,approche controlee du sol
 ICS,interception contrôlée du sol
 CMG,cour martiale générale
 ÉCG,Étoile de ermanent générale
@@ -1238,7 +1156,6 @@ RM,resource management
 coord,coordonnées de quadrillage
 EMG,état-major général
 AG,appui général
-RSG,rear support group
 DISGP,division service group
 QGGSG,Quartier général du groupe de soutien général
 JSG,joint support group
@@ -1283,9 +1200,9 @@ IEEOH,Installation d’évaluation et d’essais opérationnels – Hélicoptèr
 HOTPHOTOREP,compte rendu photo immédiat
 HOTREP,compte rendu immédiat
 HP,haute pression
+AMFP,armes micro-ondes de forte puissance
 LOR,liste d’objectifs rentables
 QG,quartier général
-EM,état-major
 QG & Esc Trans,quartier général et escadron de transmissions
 BCS,batterie de commandement et des services
 Cie Comd & Svcs,compagnie de commandement et des services
@@ -1296,14 +1213,13 @@ GARH,Gestionnaire des activités – Ressources humaines
 BTARH,Bureau de la transformation des activités des ressources humaines civiles
 SGRH,système de gestion des ressources humaines
 EGRH,Équipe de gestion des ressources humaines
+hrmsn,harmonisation
 APRH,Assistant de projet des ressources humaines 
 O Logt,officier du logement
 BSGV,bâtiment de surface à grande vitesse
 HT,haute tension
-VTH,visualisation tête haute
 HUMINT,renseignement d’origine humaine
 HUMRO,peration de secours humanitaire
-OGI,objectif de grande importance
 L,lourd
 mor L,mortier lourd
 c-à-d,c’est-à-dire
@@ -1338,8 +1254,6 @@ NGI,norme de gestion de l’information
 norme GI,norme de gestion de l’information
 GETGI,Groupe d’experts en terminologie de la gestion de l’information
 indép,indépendant
-instr indiv,instruction individuelle
-endoc,endoctrinement
 GT inf,groupement tactique d’infanterie
 info,pour l’information de
 arch info,architecture de l’information
@@ -1359,7 +1273,6 @@ P de C,point de contrôle
 PO,point d’orientation (air)
 PI,propriété intellectuelle
 PMO,plan de mise en œuvre
-CPR,catégorie de prime de rendement
 EPI,équipement de protection individuelle
 Op PI,opération de protection de l’information
 ED Ind,engagement de durée indéterminée
@@ -1374,7 +1287,6 @@ CEPI,Centre d’excellence de partage d’informations
 LSI,Liste actuelle de service international
 ops SI,egiontio de sécurité intérieure
 OSSI,officier de la sécurité des systèmes d’information
-OTI,officier – technologie de l’information
 IGSTI,Infrastructure de la gestion des services de technologie de l’information
 VAI,viseur d’arme individuelle
 J3 Génie Ops,J3 Génie – Opérations
@@ -1403,7 +1315,6 @@ CFIRI,capacité de fusion de l’information et du renseignement interarmées
 IIMP,"interarmées, intégré, multinational et public"
 RLI,Régiment logistique interarmées
 Cie PMI,Compagnie de police militaire interarmées
-EMI,Escadron de egiont interarmées
 COI,centre d’opérations interarmées
 CCOI,centre de coordination d’opérations interarmées
 junc,junction
@@ -1411,7 +1322,6 @@ CIR,commandement interarmées régional
 CCCOS,centre conjoint de coordination de sauvetage
 CCEMIR,Cours de commandement et d’état-major interarmées pour la Réserve
 GSI,groupe de soutien interarmées
-PSC,Projet spatial conjoint
 NSI,navire de soutien interarmées
 FOI,Force opérationnelle interarmées
 Poste FOIC,poste de force opérationnelle interarmées centre
@@ -1419,7 +1329,6 @@ FOI ROHUM,force opérationnelle interarmées – renseignement humain
 SCF FOIN,Section de commandement de la formation – Force opérationnelle interarmées (Nord)
 GETI,Groupe d’experts en terminologie interarmées
 Jun,June
-juil,juillet
 jonct,jonction
 proj EC,projectile à énergie cinétique
 CFC,"couteau, fourchette et cuillère"
@@ -1440,7 +1349,6 @@ GCVM,gestionnaire du cycle de vie du matériel
 lcol,lieutenant-colonel
 LCol,lieutenant-colonel
 GCVP,gestion du cycle de vie des produits
-RL,report line
 SCL,Suite de communications légère
 GCVS,Gestion du cycle de vie des systèmes
 SSCFT,Sysème de soutien du commandement de la Force terrestre
@@ -1450,7 +1358,6 @@ FD,force de débarquement
 SFT,secteur de la Force terrestre
 SFTA,Stratégie de la Force terrestre dans l’Arctique
 CSSCFT,Centre de simulation du Secteur du Centre de la Force terrestre
-RFL,restrictive fire line
 SIFT,Système d’instruction de la Force terrestre
 XTR,exercice de tir réel
 BGL,bombe à guidage laser
@@ -1514,18 +1421,14 @@ LLA,ligne de largage d’armes
 Santé M,santé mentale
 CM,conseiller militaire
 AM,amplitude modulation
-MAD,mutual assured destruction
 MAD,destruction mutuelle assurée
 mag,magnétique
-maint,maintenance
 O Vérif Maint,officier – vérification de la maintenance
-O Maint,officier de la maintenance
 SMMA,section mobile des mouvements aériens
 O SMMA,officier – Section mobile des mouvements aériens
 SAAP,système antiaérien portable
 SMOP,système modulaire d’orientation et de positionnement
 MARISAT,système maritime de communications par satellite
-MARISAT,maritime satellite communication system
 FMAR(A),Forces maritimes de l’Atlantique
 FMAR(P),Forces maritimes du Pacifique
 TRANSAR,air transport accept/refuse message
@@ -1545,7 +1448,6 @@ CM,couloir de mobilité
 C & G,cartographie et géodésie
 CCM,comité de egiontion militaire
 NDC,navire de défense côtière
-S Carto,Service de cartographie
 FCM,Fraternité chrétienne militaire du Canada
 ALCM,air-launched cruise missile
 LCM,egi contre les mines
@@ -1560,7 +1462,6 @@ CDM,egiont dentaire mobile
 FDP,force de défense principale
 LDM,laboratoire dentaire mobile
 PPDM,processus de prise de décision militaire
-UPDT,unit personnel data transactions
 méc,mécanicien
 méc,mécanique
 méc,mécanisé
@@ -1569,7 +1470,6 @@ méd,médecine
 A Méd,adjoint médical
 Commis Méd,commis médical
 cie méd,compagnie médicale
-mor M,mortier moyen
 Svc S,services de santé
 Tech Méd,technicien médical
 météo,météorologique
@@ -1585,9 +1485,7 @@ EFO,exigence fonctionnelle obligatoire
 CRFM,Centre de ressources pour les familles des militaires
 mit,mitrailleuse
 PM,pont moyen
-mgén,major-général
 gest,gestionnaire
-gest,gestion
 O Svc Gest,officier des services de gestion
 Esc HM,escadron d’hélicoptères maritimes
 EMM,équipement de manutention des matériels
@@ -1598,7 +1496,6 @@ BIM,brigade d’infanterie mécanisée
 CIG,contrôleur de l’information gestionnelle
 FRIF,Fichier de référence international des fréquences
 STIM,système de tir indirect moyen
-mil,militaire
 COMPERSMIL,Commandement du personnel militaire
 REPMIL,représentant militaire
 PIM,Programme d’interopérabilité multilatérale
@@ -1622,7 +1519,6 @@ MVM,Médaille de la vaillance militaire
 AMME,altitude minimale moyenne d’éclatement
 min DN,ministre de la Défense nationale
 MM,médecin militaire
-mo,mois
 AAM,approche axée sur la mission
 mob,mobilité
 BOP,base d’opérations principale
@@ -1654,7 +1550,6 @@ UMEE,Unité maritime d’essais et d’évaluation
 VPG,véhicule polyvalent du génie
 APGM,autonomous precision-guided munition
 PMI,point moyen des impacts
-Alm AI PM,alarmes anti-intrusion de la police militaire
 CNDPM,Centre national des données de la Police militaire
 SDPM,Sommaire des dossiers du personnel militaire
 RM,radeau moyen
@@ -1713,7 +1608,6 @@ CMC OTAN,Président du Comité militaire OTAN
 OCMC OTAN,Cabinet du Président du Comité militaire OTAN
 AIDNAV,aide à la navigation
 NAVI,navigateur-instructeur
-RESNAV,Réserve Navale
 GNBC,"guerre nucléaire, biologique et chimique"
 CCN,Centre de commandement national
 SNICC,"Système national d’information, de commandement et de contrôle"
@@ -1734,7 +1628,6 @@ ODN,officier de la défense nucléaire
 DNEL,Défense nationale en ligne
 CT AQDN,Centre de travail de l’assurance de la qualité de la défense nationale
 néc,nécessaire
-nég,négatif
 OFR,opérations facilitées par réseau
 PIEN,Programme d’instruction sur l’environnement naval
 PIENO,Programme d’instruction sur l’environnement naval – Officiers
@@ -1751,7 +1644,6 @@ SNE,Service national des enquêtes
 OLM,officier de liaison de la marine
 IML,infirmier militaire de liaison
 NLR,représentant national de liaison
-NLR,national liaison representative
 APTL,au plus tard le
 ANL,arme non létale
 CMN,Cimetière militaire national
@@ -1761,7 +1653,6 @@ RMN,représentant militaire national
 no,numéro
 COR,centre d’opérations des réseaux 
 OBN,ordre de bataille naval
-DON,egiontion d’observation nocturne
 PPP,plus proche parent
 appt,appointment
 appt,appoint
@@ -1769,7 +1660,6 @@ NORAD,Commandement de la défense aérospatiale de l’Amérique du Nord
 SER,système d’exploitation de réseau
 ORS,opérations du réseau et de la sécurité
 NOTAL,non egion à tous
-AN,approvisionnement national
 AQP,avis de qualification particulière
 GL,groupe linguistique
 LAN,liaison arrière nationale
@@ -1779,7 +1669,6 @@ ESN,élément de soutien national
 CC ESN,Commis chef – Élément de soutien national
 O Ops ESN,Officier des opérations – Élément de soutien national
 LSN,ligne de sécurité nucléaire
-NAD,note au dossier
 RAS,rien à signaler
 VTN,véhicule pour terrain nordique
 nuc,nucléaire
@@ -1790,19 +1679,14 @@ NUDET,explosion nucléaire
 NUSIC,centre d’information sur les attaques nucléaires
 EEVR,Équipe d’évaluation de vulnérabilités du réseau
 NO,navigabilité opérationnelle
-ALSEO,aviation life support equipment officer
-Reqrs O,requirements officer
-env O,environment officer
 Gp O,groupe des ordres
 O & E,organisation et effectifs
 E & M,exploitation et maintenance
 O & M,aletions et maintenance
-AP,analyse de professions
 ANO,Autorité de navigabilité opérationnelle
 Aut NO,egiontiono de navigabilité opérationnelle
 AAO,appui aérien offensif
 OBC,Ordre de la Colombie-Britannique
-OC,Officier de l’Ordre du Canada
 GP GPM,groupe de GPM
 Cmdt Dent,commandant dentaire
 POCO,Programme d’orientation des carrières – Officiers
@@ -1831,7 +1715,6 @@ ONL,Ordre de Terre-Neuve et du Labrador
 ONS,Ordre de la Nouvelle-Écosse
 OOM,Officier de l’Ordre du mérite des corps policiers
 O Quart,officier de quart
-PO,poste d’observation
 op,opérer
 Op,opération
 op,opérationnel
@@ -1841,7 +1724,6 @@ O op,ordre d’opération
 plan op,plan d’opération
 besoin op,besoin opérationnel
 rés op,ermane opérationnelle
-stocks op,stocks opérationnels
 entr op,entraînement opérationnel
 OPCAP,capacité opérationnelle
 OPCOM,commandement opérationnel
@@ -1882,21 +1764,16 @@ C & T,cornemuses & tambours
 AP,ammunition point
 P rés,Première réserve
 Î.-P.-É.,Île-du-Prince-Édouard
-AP,adjoint particulier
 AP,affaires publiques
 AC,à classer
-APB,air-portable bridge
 AHP,architecture d’harmonisation de programmes
 Branche AP,Branche des services des affaires publiques
 CAP,Centre egimentsive – Patients
+CAP,combat air patrol
 DAP,défense aérienne passive
-OCS,officier comptable de la solde
 OAP,officier des affaires publiques
 PAR,radar d’approche de précision
 para,parachute
-para,parachutiste
-para,parachutist
-para,paragraphe
 APA,abri protégé pour aéronefs
 COREN,contrôle de rendement
 CPR,certificat provisoire de réforme
@@ -1916,22 +1793,17 @@ PERMREP,représentant permanent
 OEPL,officier d’éducation physique et des loisirs
 O Admin Pers,officier d’administration du personnel
 br pers,branche du personnel
-dot pers,dotation en personnel
 gest pers,gestion du personnel
 EM pers,état-major personnel
 svc pers,services au personnel
 O Svc Pers,officier des services au personnel
 pét,pétrole
-pet,petroleum
 SAPTR,service antérieur à plein temps et rémunéré
 MGP,munition à guidage de précision
 pharm,pharmaceutique
-pharm,pharmaceutical
-photo,photographier
 PHOTOR,reconnaissance photographique
 PHOTOR,photo reconnaissance
 IP,egiontionon photographique
-SP,start point
 PMOP,plan de mise en professionnel de project
 BPR,besoins prioritaires en renseignement
 PIREP,compte rendu de pilote
@@ -1944,18 +1816,15 @@ QEL,qualification élémentaire en leadership
 SCP,système de chargement palettisé
 G Prév,grand prévot
 DF&E,"dependents, furniture and effects"
-EDS, Executive Deployable Suite
 PCM,président du comité du mess
 DCGP,Développement des compétences en gestion de projet
 RIEP,Rapport d’inspection d’entretien préventif
 SIGP,Système d’information pour la gestion du personnel
-BP,bureau de projet
 CPM,Cabinet du premier ministre
 IP,implementation plan
 PIP,project implementation plan
 OSIP,occupational structure implementation plan
 SDMR,spécification détaillée de la maintenance et de la réparation
-pnr,pionnier
 OREN,objectif de rendement
 m 1,maître de 1re classe
 m 2,maître de 2e classe
@@ -1972,7 +1841,6 @@ posn,position
 mor posn,mortar position
 PG,prisonnier de guerre
 pt PP,point de produits pétroliers
-MIP,master implementation plan
 EPP,équipement prépositionné
 VCP,vol de vérification de la compétence du pilote
 TdePl,tête de pipeline
@@ -1988,7 +1856,6 @@ prélim,préliminaire
 prép,préparer
 préal,préalable
 CFICR,Centre de formation et d’instruction consécutive au recrutement
-DIDP,Demandes de code d’identification de dossier personnel
 BPVP,Bureau de la protection de la vie privée
 CPR,Cadre de la Première réserve
 ORP,officier des relations publiques
@@ -2002,18 +1869,14 @@ PTC,point de transvidage des carburants
 RERPC,Rapport d’examen du rendement (personnel civil)
 SDP,sommaire des dossiers personnels
 EPR,équipe egiontio de reconstruction
-BSP,Bureau de standardisation principal
 OSP,opération de soutien de la paix
 OSP,officier de sélection du personnel
 psy,psychologique
 OpsPsy,egiments psychologiques
-PP,petroleum point
 Branche Spers,Branche des services de sélection du personnel
 ptl,patrouille
 recce ptl,reconnaissance patrol
 reco de pt,reconnaissance de point
-ERAP,emergency response assistance plan
-ERP,emergency response plan
 CPAL,charge palettisée
 PE,point d’embarquement
 RPX,rapport post-exercice
@@ -2040,13 +1903,10 @@ R du Sag,Le Régiment du Saguenay
 Gp R,groupe de reconnaissance
 R & D,egiment et développement
 R & R,reparation et révision
-V & L,vivres et logement
 R22eR,Royal 22e Régiment
 RI,résistance à l’interrogation
-RA,rayon d’action
 AR,alerte renforcée
 ZR,zone réglementée
-ZAAr,zone administrative arrière
 CZAr,commandement de zone arrière
 CDZAr,contrôle des dommages dans la zone arrière
 SZAr,sécurité dans la zone arrière
@@ -2063,7 +1923,6 @@ AAE,agent antiémeutes
 ARC,Artillerie royale canadienne
 RRAC,Régiment royal de l’Artillerie canadienne
 CBRC,Corps blindé royal canadien
-ARC,Aviation royale canadienne
 Reco ARC,Reconnaissance de l’Aviation royale canadienne
 CTRC,Corps des transmissions royal du Canada
 ERIC Borden,École régionale d’instruction des cadets Borden
@@ -2071,7 +1930,6 @@ ERIC Edmonton,École régionale d’instruction des cadets Edmonton
 ERIC Esquimalt,École régionale d’instruction des cadets Esquimalt
 ERIC Halifax,École régionale d’instruction des cadets Halifax
 SRLC,Service royal de la logistique du Canada
-GRC,Gendarmerie royale du Canada
 QG GRC,Quartier général de la GRC
 QG GRC,Quartier général de la Gendarmerie royale du Canada
 MRC,Marine royale canadienne
@@ -2095,11 +1953,9 @@ RECCEXREP,compte rendu d’exploitation de reconnaissance
 coll,collections
 RECCE,reconnaissance
 air recce,air reconnaissance
-armed recce,armed reconnaissance
 pt recce,point reconnaissance
 VR,visual reconnaissance
 reco,reconnaissance
-O Recrut,officier de recrutement
 CS rouge,connaissance de la situation – rouge
 réf,référer
 réf,référence
@@ -2108,7 +1964,6 @@ rég,régler
 F rég,Force régulière
 RPF Rég,Régime de pension de la Force régulière
 régt,régiment
-O Réinstal,officier de réinstallation
 P de L,point de largage
 P de D,point de dislocation
 CON F ,Contrôle de la fiabilité
@@ -2130,7 +1985,6 @@ resp,responsible
 ret,retraité
 CR,chasseur de reconnaissance
 LTR,ligne de tir restreint
-CSR,canon sans recul
 rgn,région
 ERVV (Est),École régionale de vole à voile (Est)
 GR,Guide du recrutement
@@ -2150,8 +2004,6 @@ GR,gestion des ressources
 conseils sur la GD,conseils sur la gestion des documents
 renf,renforcement
 TSRN,télécommande des stations radio navales
-BR,bureau de recrutement
-OR,objet repère
 OC,ordre courant
 ZOR,zone d’opérations réglementée
 RE,règles d’engagement
@@ -2170,7 +2022,6 @@ T/M,tours-minute
 MSTAR,man-portable surveillance and target acquisition radar
 rpt,répéter
 VTG,véhicule téléguidé
-PXR,post-exercise report
 QMR,quartier-maître régimentaire
 SQMR,sergent quartier-maître régimentaire
 rqn,réquisition
@@ -2186,12 +2037,9 @@ OAR,officier arpenteur régimentaire
 PSFR,personnel de soutien de la force régulière
 RT,radiotéléphone
 RT,radiotéléphonie
-RO,rayon de l’objectif
 CTSE,champs de tir et secteurs d’entraînement
 itin,itinéraire
 rtn,retourner
-OMF,officier du ourier ferroviaire
-OTF,officier des transports ferroviaires
 RTT,radiotéléimprimeur
 RTU,retourné à l’unité
 RVM,Médaille royale de Victoria
@@ -2216,11 +2064,8 @@ ACAS,Agent de contrôle de l’accès au système
 O Sécur,officier de sécurité
 NAS,niveaux d’alerte en matière de sécurité
 récup,récupérer
-MSA,missile sol-air
 MSA,missile surface-air
-san,sanitaire
 STA,surveillance and target acquisition
-STANO,"surveillance, target acquisition and night observation"
 BCPAS,Bureau de coordination du Programme d’accès spécial des Forces canadiennes
 OCPAS,Officier de coordination du Programme d’accès spécial
 système SARSAT,système de recherche et sauvetage assisté par satellite
@@ -2231,14 +2076,10 @@ LCSS,land combat support system
 VAEM,visite d’aide d’état-major
 CCMA,cours de conduite en marche arrière
 DM,diagramme monographique
-ACS,airspace control system
 Cmdt École,commandant de l’école
 OSLC,officier supérieur de liaison du Canada
-CMP,cour martiale permanente
-DCS,digital compass system
 OSC,officier supérieur canadien
 OCS,officier contrôleur du système
-ABCS,airborne control section
 BGSCU,bâtiment de guerre de surface de classe unique
 FCS,fire-control system
 FOPC,Force opérationnelle permanente de contingence
@@ -2248,7 +2089,6 @@ SEM,services de l’état-major
 ISM,indemnité de service en mer
 ZSS,zone de service spécial
 CDM,caserne de egiment militaire
-SfS,surveillance from space
 IDS,initiative de défense stratégique
 BDE,bureau des estafettes
 MPRR,Member Personnel Record Résumé
@@ -2265,10 +2105,8 @@ sécur,sécurité
 O Secur,officier de la sécurité
 O Sûr,officier de la sûreté
 secr,secrétaire
-SD,staff duties
 sept,septembre
 sér,série
-no sér,numéro de série
 VSE,véhicule spécialement équipé
 SEWS,système d’alerte lointaine par satellite
 VR,vol régulier
@@ -2277,8 +2115,6 @@ Cie FS,Compagnie de Forces spéciales
 AFSTP,Agent financier supérieur à temps plein
 SdeE,surveillance de l’espace
 AMS,application management services
-FLMS,Fuel and Lubricants Management System
-DMS,document management system
 CSgt,colour sergeant
 SHELREP,compte rendu de bombardement
 BN,bureau du navire
@@ -2286,13 +2122,10 @@ DAACP,défense antiaérienne à courte portée
 ZESAACP,zone d’engagement des systèmes antiaériens à courte portée
 RSA,Réserve supplémentaire d’attente
 sig,signaleur
-O Trans,officier des transmissions
 régt trans,egiment des transmissions
 trans,transmissions
-Trans,Transmissions
 Sout Trans,soutien des transmissions
 Svc Trans,Services des transmissions
-NAS,numéro d’assurance sociale
 PRS,plan de recrutement stratégique
 SES,service des enquêtes spéciales
 sit,situer
@@ -2306,7 +2139,6 @@ proj,projecteur
 2Lt,second lieutenant
 ens 1,enseigne de vaisseau de 1re classe
 MS,Médaille du sacrifice
-mit,mitraillette
 MAMS,mobile air movements section
 SOM,soutien aux opérations militaires
 MMN,modèle militaire normalisé
@@ -2314,18 +2146,15 @@ CCNS,comptabilité et contrôle des numéros de série
 Adj Sup,adjudant supérieur
 OEM,officier d’état-major
 Esc OSA,escadron d’opérations spéciales d’aviation
-OEM Comm,officier d’état-major – communications
 OEM Doc,officier d’état-major – doctrine
 OSSO,officier de service supérieur des opérations
 OEM Hél,officier d’état-major – hélicoptères
 OEM Maint,officier d’état-major – maintenance
 OEM Ops,officier d’état-major – opérations
 OEM Plans,officier d’état-major – plans
-OEM Instr,officier d’état-major – instruction
 FOS,forces d’opérations spéciales
 PsdeE,Projet de surveillance de l’espace
 GOS,Groupe d’opérations spéciales
-SLO,seconde langue officielle
 EFSLO,Éducation et formation en seconde langue officielle
 SOM,Ordre du mérite de la Saskatchewan
 OPOON,Ordre permanent d’opération pour les opérations nationales
@@ -2338,8 +2167,6 @@ app,appui
 BCPS,Bureau de coordination des programmes spéciaux
 OCPS,Officier de coordination des programmes spéciaux
 CDPM,casernes de détention et prison militaire
-spéc,spécial
-spéc,spécialiste
 spéc,spécification
 spéc,spécialité
 O Proj Spéc,officier des projets spéciaux
@@ -2347,9 +2174,7 @@ EM spéc,état-major spécialisé
 ob AM,obusier automoteur
 DQP,demande de qualification particulière
 sap,sapeur
-DC,domicile choisi
 VS,véhicule spécialisé
-QS,qualification du soldat
 SQME,sergent quartier-maître d’escadron
 GT2+2,groupement tactique deux plus deux
 sup,supérieur
@@ -2369,7 +2194,6 @@ FORS,Force opérationnelle de la Réserve stratégique
 SS,surface-surface
 ESCD,engagement pour service de courte durée
 MSS,missile surface-surface
-BASS,barrier ammunition storage site
 SNA,sous-marin nucléaire d’attaque
 SSN,sous-marin nucléaire
 OSEM,officier supérieur d’état-major
@@ -2392,7 +2216,6 @@ ADAC,à décollage et atterrissage courts
 strat,stratégique
 strat,stratégie
 STRIKWARN,préavis d’attaque nucléaire
-soum,soumission
 soum,soumettre
 ISS,indemnité de service sous-marin
 sous-GPM,sous-groupe professionnel militaire
@@ -2441,7 +2264,6 @@ GAT,groupe d’aviation tactique
 STIAT,système tactique d’information de l’Armée de terre
 LAT,leurre aérien tactique
 AMT,aide-mémoire tactique
-MAT,erifica aérien tactique
 SMAT,section de mouvement aérien tactique
 ZTRO,zone tactique de responsabilité opérationnelle
 POA,point d’orientation air
@@ -2479,7 +2301,6 @@ FO,force opérationnelle
 Cmdt FO,commandant de la force opérationnelle
 FO Kaboul,Force opérationnelle à Kaboul
 Éqp Tfmn,Équipe de transformation
-tg,télégramme
 tg,télégraphe
 tg,télégraphie
 HT,hélicoptère de transport
@@ -2495,7 +2316,6 @@ TLP,Programme tactique des chefs subalternes Florennes
 MT,missile tactique
 éqp,équipe
 LMC,lot de marquage des cibles 
-trsp,transport
 EEN Trsp,Équipe d’évaluation et de normalisation du transport
 TO,egimen d’opérations
 OT,officier du transport
@@ -2511,18 +2331,15 @@ TOXREP,compte rendu d’attaque chimique
 tp,troupe
 SIGS,Système d’information et de gestion – Stagiaires
 SIGS(A),Système d’information et de gestion – Stagiaires (Amélioration)
-tpt,transport
 EEN Tpt,Équipe d’évaluation et de normalisation du transport
 R & DI,ressources et développement de l’instruction
 EMR,évaluation de la menace et des risques
-traj,trajectoire
 B Trad,Bureau de traduction
 MARTA,message d’acceptation/refus de transport aérien
 entr,entraînement
 Commis Instr,commis d’instruction
 dév instr,développement de l’instruction
 Branch Perf Instr,Branche des services du perfectionnement de l’instruction
-O Instr,officier de l’instruction
 trig,trigonométrie
 PD,piste démontable
 tn,transportation
@@ -2537,7 +2354,6 @@ BDTAT,base de données tactiques d’analyse de terrain
 RBT,epara boisée tempérée
 CDLC,charrue de déminage largeur chenille
 ASP,aéronef sans pilote
-ESU,engineer support unit
 RENS,rapport d’état non satisfaisant
 NGC,Norme générale de classification
 PSM,plongée sous-marine
@@ -2566,15 +2382,12 @@ PFUMR,Programme de formation universitaire – Militaires du rang
 PFUO,Programme de formation universitaire – Officiers
 HUTT,hélicoptère utilitaire de tansport tactique
 UXB,bombe non explosée
-UXO,unexploded explosive ordnance
 UXO,munition explosive non explosée
-R&Q,rations and quarters
 EV,évaluation de la vulnérabilité
 VCEMD,Vice-Chef d’état-major de la défense
 PRV,point de rassemblement des véhicules
 RCV,reconnaissance combat vehicle
 VDS,sonar à immersion variable
-véh,véhicule
 véh/h,véhicules par heure
 véh/km,véhicules par kilomètre
 Info Fourn,Information sur les fournisseurs
@@ -2584,7 +2397,6 @@ vis,visibilité
 Adj Visites,adjudant des visites
 DATBA,défense aérienne à très basse altitude
 VHU,véhicule hors d’usage
-PV,point vital
 Prad,eparatio radiotéléphonique
 PS,point sensible
 reco vis,reconnaissance visuelle
@@ -2633,7 +2445,6 @@ OBS Ere,officier du bien-être social de l’escadre
 ET,équipe de travail
 OSIT Ere,officier des services d’information et des télécommunications de l’escadre
 cmdt en second,commandant en second
-CPX,command post exercise
 accél,accélérer
 LFX,live fire exercise
 CAHV,contingent annuel d’heures de vol

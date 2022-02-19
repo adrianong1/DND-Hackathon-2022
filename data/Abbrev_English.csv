@@ -16,6 +16,7 @@ Abbreviation,Term
 3 ASG CE,3 Area Support Group Construction Engineering
 30 Fd Regt,30th Field Regiment
 31 MP Pl,31 Military Police Platoon
+34 CBG Band,34 Canadian Brigade Group Band
 "35 CBG HQ, MP Coy","35 Canadian Brigade Group Headquarters, Military Police Company"
 36 CBG Band,36 Canadian Brigade Group Band
 5 ASG HQ,5 Area Support Group Headquarters
@@ -32,14 +33,11 @@ A Trans WG,Army Transformation Working Group
 A/--,acting
 AA,Airworthiness Authority
 AAA,air avenue of approach
-AAD,advanced ammunition depot
 AAF,allied air force
 AAG,Arrival Assistance Group
 AAH,antiarmour helicopter
-AAP,auxiliary aiming point
 AAR,after-action review
 AAS,aircraft arresting system
-AASD,automatic artillery survey device
 AAW,antiarmour weapon
 AAWC,anti-air warfare controller
 AB,able seaman
@@ -72,14 +70,11 @@ ACP,Allied communications publication
 ACPO,assistant command post officer
 ACR,anticipated consumption rate
 AD,armoured dozer 
-AD regt,air defence artillery regiment
 ADA,air duty allowance
 ADAC,Acoustic Data Analysis Centre
 ADAC (Pacific)/ADAC(P),Acoustic Data Analysis Centre Pacific
 ADATS,air defence anti-tank system
 ADDN,Automated Defence Data Network
-AFDS,Automated Fuel Data System
-ADM,Assistant Deputy Minister
 ADM(HR-Civ),Assistant Deputy Minister (Human Resources - Civilian)
 ADM (HR- Civ Transfers),Assistant Deputy Minister (Human Resources - Civilian Transfers)
 ADM(IE),Assistant Deputy Minister (Infrastructure and Environment)
@@ -88,10 +83,8 @@ ADM(PA),Assistant Deputy Minister (Public Affairs)
 ADM(Pol),Assistant Deputy Minister (Policy)
 ADM(RS),Assistant Deputy Minister (Review Services)
 ADM(S&T),Assistant Deputy Minister (Science and Technology)
-admin coy,administration company
 Admin O,administrative officer
 Admin Sp O,administration support officer
-admin staff,administration staff
 ADS,air dispatch service
 AENLO,aeromedical evacuation nursing liaison officer
 AETE,Aerospace Engineering Test Establishment
@@ -108,7 +101,6 @@ AFV,armoured fighting vehicle
 AG,army group
 AGL,above ground level
 AGO,air gunnery officer
-AGZ,actual ground zero
 Ah,ampere-hour
 AH,attack helicopter
 AHSVS,armoured heavy support vehicle system
@@ -136,9 +128,7 @@ anchor OP,anchor observation post
 anlst,analyste
 AO,area of operations
 AO,assisting officer
-AOE,Alberta Order of Excellence
 AOR,area of responsibility
-AOR,oiler replenishment
 AOSI,area of strategic interest
 APAO,area public affairs officer
 APC(T),armoured personnel carrier (tracked)
@@ -152,13 +142,10 @@ ARCG,Arctic Response Company Group
 armd,armoured
 armd bde,armoured brigade
 armd div,armoured division
-ARP,ambulance relay point
 arr,arrive
-arty sim,artillery simulator
 ARV,armoured recovery vehicle
 ASAP,as soon as possible
 ASF,auxiliary security force
-asg,assign
 ASG,area support group
 ASG Comd,area support group commander
 ASG Engr,area support group – engineers
@@ -172,7 +159,6 @@ ASO,accounting services officer
 ASRAAM,advanced short-range air-to-air missile
 Assoc DM,Associate Deputy Minister of National Defence
 Associate MND,Associate Minister of National Defence
-Asst C,assistant chief
 Asst C Air Force,Assistant Chief of the Air Force Staff
 Asst C Army,Assistant Chief of the Army Staff
 Asst C Naval,Assistant Chief of the Naval Staff
@@ -199,11 +185,9 @@ ATIP Coord,Access to Information and Privacy Coordinator
 ATO,ammunition technical officer
 ATOC,allied tactical operations centre
 ATRL,antitank rocket launcher
-attrib,attributions
 ATTS,Air Technical Training Squadron
 ATV,all-terrain vehicle
 AVO,air vehicle operator
-AUM,air-to-underwater missile
 AUSCANNZUKUS,"Australia, Canada, New Zealand, United Kingsdon and United States of America"
 auth,authority
 auth,authorization
@@ -231,24 +215,20 @@ BCWO,base chief warrant officer
 Bde CWO,brigade chief warrant officer
 BDF,base defence force
 bdry,boundary
-BE fuze,base ejection fuze
 BE shell,base ejection shell
 BE smk shell,base ejection smoke shell
 BER,beyond economical repair
 BFSM,battlefield frequency spectrum management
-BG,battle group
-bg,bearing
 Bhd,beachhead
 BIFFS,battlefield identification friend or foe system
 BK,battery captain
-bkld,backload
 BL,bomb line
 bldg,building
 blg,building
+BLP,backloading point
 BLR,beyond local repair
 blue SA,blue situational awareness
 BMT,business management team
-BMQ,basic military qualification
 BofS,break of silence
 BOMREP,bombing report
 BP,business plan
@@ -261,7 +241,6 @@ BQMS,battery quartermaster sergeant
 BR,beyond repair
 br,branch
 br,branche
-brhd,bridgehead
 BRO,battery reconnaissance officer
 brown SA,brown situational awareness
 BSL,battle school
@@ -280,14 +259,12 @@ C Naval ,Chief of the Naval Staff
 C&A,certification and accreditation
 C2,command and control
 C2W,command and control warfare
-C3,"command, control and communication"
 CAC – CO,continent air component – commanding officer
 CAF,Canadian Armed Forces
 CAF SRTSM,Canadian Armed Forces Strategic Response Team on Sexual Misconduct
 CAG,Capabilities Advisory Group
 CAIO,corps artillery intelligence officer
 cam,camouflage
-cam,camoufler
 CAM,capability assessment methodology
 Cameron of C,The Queen’s Own Cameron Highlanders of Canada
 CANAVLO,Canadian naval liaison officer
@@ -296,10 +273,7 @@ CANEXHQ,Canadian Forces exchange system headquarters
 CANFLTLANT,Canadian Fleet Atlantic
 CANFLTLANT HQ,Canadian Fleet Atlantic Headquarters
 CANFLTPAC,Canadian Fleet Pacific
-CANFLTPAC HQ,Canadian Fleet Pacific Headquarters
-CANFORGEN,Canadian Forces General message
 CANMILREP,Canadian Representative to the Military Committee
-CANR,Canadian NORAD Region
 CANSOF,Canadian special operations forces
 CANSOFCOM,Canadian Special Operations Forces Command
 CANUS,Canada – United States of America
@@ -317,7 +291,6 @@ CAT 4 – IA,CDS Action Team 4 – Institutional Alignment
 CATCAM,CDS Action Team Capability Assessment Methodology
 CB,confined to barracks
 CB,counter-battery
-CBP,capability-based planning
 CBTAS,counterbattery target acquisition system
 Cbt O,combat officer
 CC,Commanders’ Council
@@ -340,12 +313,10 @@ CCWO,Command chief warrant officer
 CD,Canadian Forces’ Decoration
 CD Adv,Canadian Defence Adviser
 CDA,Canadian Defence Attaché
-CDA,Canadian Defence Academy
 CDB,Capability Development Board
 CDE,commander division engineers
 CDIO,CJOC Directives for International Operations
 CDLS (W) SR,Canadian Defence Liaison Staff (Washington) Screenings and Releases
-Cdn Spec Ops Regt,Canadian Special Operations Regiment
 CDS,Chief of the Defence Staff
 CDU Clk,Care Delivery Unit Clerk
 CE,construction engineering
@@ -354,14 +325,12 @@ CEO,chief executive officer
 CEOI,communications-electronics operating instructions
 CEOTP,Continuing Education Officer Training Plan
 CEP,civil emergency planning
-CER,Combat Engineer Regiment
 CERA,chief engine room artificer
 CES,construction engineering squadron
 CESI,communications-electronics standing instructions
 CET,combat engineer tractor
 CEU,construction engineering unit
 CF,Canadian Forces
-CF Griev Ref,Canadian Forces Grievance Referral
 CF H Svcs Gp,Canadian Forces Health Services Group
 CF H Svcs Gp HQ,Canadian Forces Health Services Group Headquarters
 CF H Svcs TC,Canadian Forces Health Services Training Centre
@@ -378,7 +347,6 @@ CFAD Bedford,Canadian Forces Ammunition Depot Bedford
 CFAD Dundurn,Canadian Forces Ammunition Depot Dundurn
 CFAD Edmonton,Canadian Forces Ammunition Depot Edmonton
 CFAD Rocky Point,Canadian Forces Ammunition Depot Rocky Point
-CFAO,Canadian Forces Administrative Orders
 CFATC,Canadian Forces Arctic Training Centre
 CFB,Canadian Forces base
 CFC-A,Combines Forces Command – Afghanistan
@@ -430,11 +398,9 @@ CFNOC,Canadian Forces Network Operations Centre
 CFO,chief financial officer
 CFOO,Canadian Forces Organization Order
 CFP,Canadian Forces Publication
-CFPAS,Canadian Forces Personnel Appraisal System
 CFPMP,Canadian Forces Pension Modernization Project
 CFPO,Canadian Forces Post Office
 CFPSU,Canadian Forces Protective Services Unit
-CFPU,Canadian Forces Postal Unit
 CFR,commissioned from the ranks
 CFRB,Canadian Forces Reserve Barracks
 CFRG,Canadian Forces Recruiting Group
@@ -446,7 +412,6 @@ CFSA,Canadian Forces Superannuation Act
 CFSACO,Canadian Forces School of Aerospace Control Operations
 CFSATE,Canadian Forces School of Aerospace Technology and Engineering
 CFSCE,Canadian Forces School of Communications and Electronics
-CFSD,Canadian Forces supply depot
 CFSIOC,Canadian Forces Signals Intelligence Operations Centre
 CFSM,Canadian Forces Supply Manual
 CFSME,Canadian Forces School of Military Engineering
@@ -472,19 +437,15 @@ CFX,command field exercise
 CoG,centre of gravity
 CGCM,Canadian Government Catalogue of Materiel
 CGCS,Canadian Government Cataloguing System
-ch,charge
 chap,chapter
 Chap(RC),chaplain (Roman Catholic)
 CHEBP,chemical high explosive burster projectile
 Chief Army Ops,Chief of Army Operations
 CHRC,Civilian Human Resources Committee
 CI,chief instructor
-CIC,combat information centre
-CIJ,close-in jamming
 CIO,chief information officer
 CIOR,Interallied Confederation of Reserve Officers
 CIPPR,Capital Investment Programme Plan Review
-CIRT,Computer Incidents Response Team
 CJFMCCC,Coalition Joint Forces Movement Coordination Command Centre
 CJIRU-CBRN,"Canadian Joint Incident Response Unit – Chemical, Biological, Radiological and Nuclear"
 CJTF,combined joint task force
@@ -492,14 +453,12 @@ cl,classified
 CLAS Requests,Commercial Law Advisory Services Requests
 CLEBJ,chemical low explosive burster projectile
 CLGP,cannon-lauched guided projectile
-clk,clerk
 CLO,cadet liaison officer
 clo,clothing
 CLOS,command to line-of-sight
 clo stmn,clothing storeman
 clr,clear
 CLS Supt Clk,Chief of the Land Staff superintendent clerk
-CM,career manager
 CM,countermeasure
 CM,Member of the Order of Canada
 CMAC,Court Martial Appeal Court of Canada
@@ -508,7 +467,6 @@ CMC,Chairman of the Military Committee
 CME,Canadian Military Engineer Branch
 CMJ,chief military judge
 CMM,Commander of the Order of Military Merit
-CMMS,Canadian Military messaging System
 CMP,Chief of Military Personnel
 CMP D Mil Pers Mgt,Chief Military Personnel Director Military Personnel Management
 CMP GO,Chief Military Personnel General Office
@@ -526,22 +484,18 @@ CofA,centre of arc
 CO Admin Asst,commanding officer’s administrative assistant
 CoC,chain of command
 COC,change of command
-CoE,centre of excellence
 COEFOR,contemporary operating environment force
 C of M,correction of the moment
 COI,conflict of interest
 COI,community of interests
-coll,"collectif, ive"
 coll trg,collective training
 col smk shell,coloured smoke shell
 COM,Commander of the Order of Merit of the Police Forces
 Comd CA,Commander of the Canadian Army
-COMEDCOM,corps medical command
 COMEDGP,corps medical group
 Comm Res Det Shilo,Communications Reserve Detachment Shilo
 COMPT Asst CMP - DGMPSS,Comptroller of Assistant Chief of Military Personnel and Director General Military Personnel Support
 Compt LFC,Comptroller Land Force Command
-COMSEC C,communications security custodian
 COMSEC O,communications security officer
 CONOP,contingency operation
 CONOPLAN,contingency operation plan
@@ -557,7 +511,6 @@ corps tps,corps troops
 COS,change of strength
 COS,chief of staff
 COS JFG,chief of staff joint force generation
-COSCOM,corps support command
 COS Land Ops,Chief of Staff Land Operations
 COSMIC Con O,COSMIC control officer
 COTS,commercial off-the-shelf
@@ -570,8 +523,6 @@ CPRR ,Civilian Performance Review Report
 CPSM,Canadian Peacekeeping Service Medal
 CPU,Close Protection Unit
 CP veh,command post vehicle
-CRA,compulsory retirement age
-CRAA,corps rear administrative area
 CRC,control and reporting centre
 CRC (A),Conflict Resolution Centre (Atlantic)
 CR Clk,central registry clerk
@@ -584,7 +535,6 @@ CRPG,Canadian Rangers Patrol Group
 CRPTC,Connaught Range Primary Training Centre
 CRS,control and reporting system
 CRS,Chief Review Services
-CRV,command and reconnaissance vehicle
 crypto,cryptographie
 crypto,cryptography
 CRZ,Classified Restricted Zone
@@ -593,7 +543,6 @@ CSAR,combat search and rescue
 CSE,Communication Security Establishment
 CSEC,Communications Security Establishment Canada
 CSEO,Combat Systems Engineering Officer
-CS Ex,Chef – Service d’examen
 CSG,Canadian Support Group
 CSN,Canadian Switched Network
 CSNI,Consolidated Secret Network Infrastructure
@@ -611,14 +560,12 @@ CV,Cross of Valour
 CVO,Commander of the Royal Victorian Order
 CW,chemical warfare
 CWC,chemical weapons convention
-CWET,Canadian war equipment table
 CWO,chief warrant officer
 D2BNET,Defence-to-Business Network
 D2P,Defence-to-Partners
 D2Pnet,Defence-to-Partners Network
 D Law,Director of Law
 D Med Pol,Director Medical Policy
-D-Net,Defence Network
 DA coy,direct action company
 DAIO,division artillery intelligence officer
 D Air FR,Director Air Force Readiness
@@ -628,7 +575,6 @@ DBMC,Defence Business Management Capability
 DBMCT,Defence Business Management Capability Transformation
 DCAAR,Defence Controlled Access Area Regulations
 DCO,deputy commanding officer
-Dcomd,deputy commander
 DCOS,deputy chief of staff
 DCOS FTA,Deputy Chief of Staff Formation Technical Authority
 DCP,Defence Capability Plan
@@ -638,7 +584,6 @@ DCSE,Distributed Computing Services Engineering
 DDC,Defence Diversity Council
 DDH,destroyer helicopter carrying
 DDIO,DCDS Direction for International Operations
-DEC,drug education coordinator
 Deck O,deck officer
 DEDS,Defence Electronic Directory Service
 DEM,director of staff
@@ -646,7 +591,6 @@ DEMS,Defence Electronic Mail System
 Dent O,dental officer
 DEW,directed-energy weapon
 DF,direction-finding
-DF&E,"dependents, furniture and effects"
 DFSR,Defence Force Structure Review
 DFSV,direct fire support vehicle
 DGAEPMFT,Director General Aerospace Equipment Program Management (Fighters and Trainers) 
@@ -658,24 +602,22 @@ DIHRS,Defence Integrated Human Resource System
 DIN,Defence Information Network
 DISB,Defence Information Services Broker
 Div O,diving officer
-DIVGA,diving allowance
 DJA,Deputy Judge Advocate
 DJAG/COS,Deputy Judge Advocate General/Chief of Staff
 DKIM PERMIS,Director Knowledge and Information Management – Personnel Electronic Records Management Information System
 DLOC,deployment level of capability
 DM,Deputy Minister of National Defence
+DMOC,Defence Management Oversight Committee
 D Mus,Director of Music
 DND,Department of National Defence
 DNDAF,Department of National Defence and the Canadian Forces Architecture Framework
 DO,duty officer
 DOB,date of birth
-dom op,domestic operation
 DOS,director of staff
 Dot Ext ,Dotation Externe
 DPALC,Defence Public Affairs Learning Centre
 DPB,Defence Planning Board
 DPC,Defence Planning Committee
-DPR,Defence Policy Review
 DRACS,Deployable Remote Access Communication System
 DRDC,Defence Research and Development Canada
 DRDC ISSO,Defence Research and Development Canada Information Systems Security Officer
@@ -688,7 +630,6 @@ DS,directing staff
 DSO,departmental security officer
 DSO,duty staff officer
 DSP,Defence Services Programme
-DSST,deployed signals intelligence support team
 DSST,deployed SIGINT support team
 DSX,Defence Strategic Executive Committee
 DTB,Defence Terminology Bank
@@ -705,39 +646,27 @@ DVPNI,Defence Virtual Private Network Infrastructure
 DVPNI,Defence Virtual Private Networking Infrastructure
 DWAN,Defence Wide Area Network
 DWAO,Defence Women’s Advisory Organization
-e.g.,for example
-EA,electronic attack
 EAC,echelon above corps
 EAF,Entity Armed Forces
 EBS,Enterprise Backup Services
-EC,establishment change
 ECS,environmental chief of staff
 edn,education
-EDRMS,Enterprise Document and Records Management System
 ED&T,Exemption from Duty and Training
-EDWP,extended docking work period
 EEFI,essential elements of friendly information
 EER,explosive echo ranging
-EFCC,Equipment Fielding Coordination Centre
-EIS,Enterprise Infrastructure Systems
 EITSM,Enterprise Information Technology Service Management
-élab,elaboration
 EMSEC,emission security
 ENDEX,end of exercise
 Eng O,engineering officer
-env O,environment officer
-EO,electro-optics
 EO,enabling objective
 EOOW,engineer officer of the watch
 ERA,explosive reactive armour
 ERC,enhanced reliability check
 ERC,Expeditionary Readiness Centre
-ERMISS,explosion resistant multi-influence sweep system
 ERN,equipment registration number
 ERP,extended-range projectile
 ERT,emergency response team
 ESB,Electronic Selection Board
-ESM,electronic warfare support measures
 ETA,estimated time of arrival
 ETC,estimated time of completion
 ETD,estimated time of departure
@@ -765,10 +694,8 @@ FASC,forward air support centre
 FASCAM,family of scatterable mines
 FASM,functional application support manager
 FASTAR,forward area surveillance and target acquisition radar
-FC,fighter controller
 FC,fire chief
 FCZ,forward combat zone
-Fd Amb,field ambulance
 fd hosp,field hospital
 fd surg hosp,field surgical hospital
 FDA,foreign duty allowance
@@ -779,7 +706,6 @@ FEBA,forward edge of the battle area
 FEROP,ferry operation
 FFC,field firing centre
 FFCP,Future Fighter Capability Project
-FFE,fire for effect
 FFR,fitted for radio
 FG,force generation
 FGISM,Federated Ground Infrastructure for Satellite Missions
@@ -793,7 +719,6 @@ FLCC,forward logistics control centre
 FLET,forward line of enemy troops
 FLG,forward logistics group
 FLIP,flight information publication
-FLMS,Fuel and Lubricants Management System
 FLOC,forward logistics operations centre
 FlogO,Formation Logistics Officer
 FLOT,forward line of own troops
@@ -804,7 +729,6 @@ FMF,fleet maintenance facility
 fmn,formation
 FMRU,forward medical replenishment unit
 FMSD,forward medical supply depot
-FMSU,forward mobile support unit
 FNP,fonds non publics
 FO,flag-officer
 FOA,field operations allowance
@@ -840,7 +764,6 @@ G3,G3 Operations
 G4,G4 Logistics
 G5 ,G5 Public Affairs
 G6,G6 TCCCS and Informatics
-G8,G8 Comptroller
 G9,G9 Liaison and Coordination Office Civil-Military Cooperation
 GA,ground attack
 GAF,ground attack fighter
@@ -855,42 +778,34 @@ GEDS,Government Electronic Directory Services
 gen offr,general officer
 gen offrs,general officers
 geo,geographic
-geo,geography
 geom,geomatics
 GFI,government furnished information
 GGFG,Governor General’s Foot Guards
 GGHG,Governor General’s Horse Guards
 GLO,ground liaison officer
-GLW,grenade launching weapon
 GOL,general officer list
-govt,government
 gp,grouping
 GPO,gun position officer
-GPS,global positioning system
-GR,grid reference
 grd,ground
 GSG HQ,General Support Group Headquarters
+GSM,General Service Medal
 GSM,government supplied materiel
 GSM,Group Sergeant-Major
 GSNCM,general specification non-commissioned members
 GSO,general safety officer
 GSO,general specification officers
-GSR,general support reinforcing
 GSR,ground surveillance radar
 GST,geomatics support team
 GSW,gunshot wound
 GW,guided weapon
 HA,holding area
-HAC,helicoptère antichar
 HAO,humanitarian-assistance operation
 har,harbour
 Hast & PER,The Hastings and Prince Edward Regiment
 HAW,heavy anti-tank weapon
-HB,hostile battery
 hd,head
 HE,high explosive
 Hel OTS,Helicopter Operational Training Squadron
-HELTASK,helicopter task
 HEP,high explosive plastic
 HF,harassing fire
 HF,high frequency
@@ -926,7 +841,6 @@ HRBM,Human Resource Business Manager
 HRBTO,Civilian Human Resources Business Transformation Office
 HRMS,Human Resource Management System
 HRMT,Human Resources Management Team
-hrmzn,harmonization
 HRPA,Human Resources Project Assistant 
 Hsng O,housing officer
 HSSV,high-speed surface vessel
@@ -950,14 +864,11 @@ IM,information management
 IMCAT,Information Management Crisis Action Team
 IMD,Information Management Directives
 IM Gp,Information Management Group
-imag,imagery
 IMI,Information Management Infrastructure
-IMIBG,independent mechanized infantry brigade group
+IMLC,interim medium lift capability
 IMRS,Integrated Managed Readiness System
 IMS,international military staff
 IMS,International Military Staff
-IMS,information management standard
-IM standard,information management standard
 IMTP,Information Management Terminology Panel
 incl,include
 incl,included
@@ -967,8 +878,6 @@ incl,inclusif
 incl,inclusion
 incl,inclusive
 incl,inclusively
-incl,inclusivement
-indiv trg,individual training
 indoc,indoctrination
 inf,infantry
 inf hy BG,infantry heavy battle group
@@ -979,7 +888,6 @@ info arch,information architecture
 Info O,information officer
 info ops,information operations
 info svcs,information services
-infran,infranchissable
 insp,inspect
 insp,inspecter
 insp,inspection
@@ -987,15 +895,11 @@ insp,inspection sommaire
 instnl,institutional
 instr,instruction
 instr coll,instruction collective
-instr indiv,instruction individuelle
 instr ldrsp,instruction en leadership
 intcpt,interception
 intl,international
-intmed,intermediate
-INTSUM,intelligence summary
 inund,inundation
 IO,intelligence officer
-IP,incentive pay
 IP,intellectual property
 IPC,incentive pay category
 IP Op,information protection operation
@@ -1013,7 +917,6 @@ IS COE,Information Sharing Centre of Excellence
 ISL,International Stand-by List
 IS ops,internal security operations
 ISSO,information system security officer
-IT,imagerie thermique
 ITO,information technology officer
 ITSMF,Information Technology Service Management Framework
 IWS,individual weapon sight
@@ -1033,7 +936,6 @@ JAG GO,Judge Advocate General – General Office
 JAG Info,Judge Advocate General – Informatic
 JAG Lib,Judge Advocate General – Library
 JAG Pers,Judge Advocate General – Civilian Personnel
-JAG Plan,Judge Advocate General – Business Planning
 JC2IS,Joint Command and Control Information System
 JCR,Junior Canadian Rangers
 JDHQP,Joint Deployable Headquarters Project
@@ -1045,16 +947,13 @@ jr NCO,junior non-commissioned officer
 jr offrs,junior officers
 JRCSC,Joint Reserve Command and Staff Course
 JSP,Joint Space Project
-JSS,joint support ship
 JTFC Watch,joint task force central watch
-JTF HUMIN,joint task force human intelligence
 JTFN FCC,Joint Task Force (North) Formation Command Cell
 JTP,Joint Terminology Panel
 Jul,July
-KE proj,kinetic energy projectile
 KFS,"knife, fork and spoon"
 KIA,killed in action
-L of C,lines of communications
+KM,knowledge management
 lab,laboratory
 LAB,low-altitude bombing
 LAH,light attack helicopter
@@ -1062,10 +961,8 @@ LAV,light armoured vehicle
 LAW,light anti-tank weapon
 LBD,"laundry, bath and decontamination"
 LCC,Learning and Career Centre
-LCC,logistics coordination centre
 LCMM,life cycle materiel manager
 LCS,Light Communication Suite
-LCSM,Life Cycle System Management
 LCSS,Land Command Support System
 ldrsp,leadership
 ldrsp trg,leadership training
@@ -1076,8 +973,6 @@ LFAS,Land Force Arctic Strategy
 LFCASTC ,Land Force Central Area Simulation Training Centre 
 LFTS,Land Force Training System
 LFX,live firing exercise
-LG,landing ground
-LGB,laser-guided bomb
 LH,light helicopter
 LIB,light infantry brigade
 Linc & Welld R,The Lincoln and Welland Regiment
@@ -1087,23 +982,17 @@ LLAD,low-level air defence
 LLTR,low-level transit route
 LO,liaison officer
 LOB,left out of battle
-LOC,lines of communications
 LOC,logistics operations centre
 loc,locality
 loc,locating
 loc,location
 LOCON,lower control
 LOFT,land operations and familiarization training
-log,logistics
-log O,logistic order
 Log O,logistics officer
 LOS,line of sight
 LOSV,light oversnow vehicle
 LOTS,logistics over the shore
 LPO,local purchasing officer
-LRAAW,long-range anti-armour weapon
-LRAAW system,long-range anti-armour weapon system
-LRB,long-range bomber
 LRPA,long-range patrol aircraft
 LRTA,long-range transport aircraft
 LSM,local supply manager
@@ -1135,18 +1024,14 @@ matc,matelot-chef
 MB,mechanized brigade
 MB,Medal of Bravery
 MC,Military Committee
-mc,motorcycle
-MCC,military cooperation committee
-MCE,Mapping and Charting Establishment
 MCF,Military Christian Fellowship of Canada
-MCM,mine countermeasures
+MCO,material control officer
 MCOR,Mat Campus Orderly Room
 MCRU,Mobile Conrtrol Reporting Unit
 MCS,management consulting services
 MCS,Medium Communication Suite
 MDMP,military decision-making process
 mech,mechanical
-mer,mercredi
 METC,Munitions and Experimental Test Centre
 MEUF,Multi-Engine Utility Flight
 MF,mortar fire 
@@ -1161,7 +1046,6 @@ MICA,management information control authority
 MIFR,Master International Frequency Register
 MIFS,medium indirect fire system
 Mil COTS,military commercial-off-the-shelf
-MILPERSCOM,Military Personnel Command
 MILREP,military representative
 MIR,medical inspection room
 MIRV,multiple independently-targetable re-entry vehicle
@@ -1183,26 +1067,22 @@ MOM,Member of the Order of Merit of the Police Forces
 MoP,measure of performance
 MoRI,management of recorded information
 MORTREP,mortar bombing report
-MOS ID,military occupational structure identification
 MOU,memorandum of understanding
 Mov O,movements officer
+MP,military police
 MP Clk,military police clerk
 MPCIS,Military Police Criminal Intelligence Section
 MPEU,Maritime Proving and Evaluation Unit
 MPI,mean point of impact
 MP Intru Alm,military police intrusion alarms
 MPNRC,Military Police National Records Centre
-MR,map reference
 MRAAW,medium range anti-armour weapon
 MRP,Managed Readiness Plan
 MRS,medical reception station
 MRTI,multirole thermal imager
 MSC,married service couple
 MSC,Meritorious Service Cross
-MSEL,master events scenario list
-MSL,mean sea level
 MSM,Meritorious Service Medal
-MSO,Maintenance Support Officer
 MSO ,Mechanical Support Organization
 MSOC,Marine Security Operations Centre
 MSR,main supply route
@@ -1211,7 +1091,6 @@ MSVS,medium support vehicle system
 MTAP,Military Training Assistance Programme
 MTC,Mission Training Centre
 mtd,mounted
-MTH,medium transport helicopter
 mtn arty,mountain artillery
 MTSC Gagetown,Militia training support centre Gagetown
 MTTH,medium tactical transport helicopter
@@ -1250,10 +1129,8 @@ NETPO,Naval Environmental Training Programme – Officers
 NFSFO,naval fire support forward observer
 NFSLO,naval fire support liaison officer
 NFSSO,naval fire support staff officer
-NGO,non-governmental organization
 NGRI,Network Gated over Remote Infrastructure
 NIS,National Investigation Service
-NLO,naval liaison officer
 NLO,nursing liaison officer
 NLT,not later than
 NLW,non-lethal weapon
@@ -1265,32 +1142,25 @@ NOB,naval order of battle
 NOD,night observation device
 NOK,next-of-kin
 NORAD,North American Aerospace Defence Command
-NOS,network operating system
 NOS,network operations and security
 Nov,November
 NP,National Procurement
 NPF,non-public funds
-NRG,national representation group
 NRL,national rear link
 NRTWG,National Recruiting Transformation Working Group
 NSA,new shipborne aircraft
 NSE CC,National Support Element Chief Clerk
-NSE Ops O,National Support Element Operations Officer
 NSL,nuclear safety line
 NTR,nothing to report
 NTV,northern terrain vehicle
 nuc arty,nuclear artillery
 nuc wpn,nuclear weapon
-NUDET,nuclear detonation
 NUSIC,nuclear strike information centre
 NVAT,Network Vulnerability Analysis Team
 OA,operational airworthiness
 O Admin,officier d’administration
-O Besoins,officier des besoins
 O Compt,officier comptable
-O Fin,officier des finances
 O Info,officier d’information
-O Nav,officier de navigation
 O Resp,officier responsable
 O Svc Alim,officier – services d’alimentation
 O&E,organization and establishments
@@ -1302,10 +1172,10 @@ OAC,operational airworthiness clearance
 OAS,offensive air support
 OBC,Order of British Columbia
 obsn,observation
+obst,obstruction
 OC,officer commanding
 OC,Officer of the Order of Canada
 OC Dent,officer commanding – dental
-OCDP,Officer Career Development Programme
 Ocdt,officer cadet
 OCG,Office of the Chaplain General
 OCI,office of collateral interest
@@ -1316,7 +1186,6 @@ Oct,October
 ODS,Office of Defence Security
 OFA,Operations Funding Account
 off,offence
-off,offense
 off,offensif
 off,offensive
 offr,officer
@@ -1328,7 +1197,6 @@ OHC,overhead cover
 OHP,overhead protection
 OHPT,overhead projector transparency
 OIC,officer in charge
-OJTS,on-job training standard
 OL,official languages
 OLIF,official languages information form
 OM,officier marinier
@@ -1349,7 +1217,6 @@ op res,operational reserve
 op stocks,operational stocks
 op trg,operational training
 OPD,officer professional development
-OPI,obus ermanents incendiaire
 OPI,office of primary interest
 OPME,Officer Professional Military Education
 OPMS,Operational Performance Measurement System
@@ -1358,26 +1225,20 @@ OPRED,operational readiness
 ops,operations
 Ops Clk,operations clerk
 Ops IMO,operations information management officer
-ops info,ermanents d’information
 Ops O,operations officer
 Ops OR,operations orderly room
 OPSTR,operational strength
 Ops WO,operations warrant officer
-OR,orderly room
 O Radiop,officier de radioprotection
 ORBAT,order of battle
 OR Clk,orderly room clerk
-org,organization
 ORO,operations room officer
 ORTL,Operational Research Team Leader
 OS,obligatory service
 OS,officier de service
 OS,ordinary seaman
 OSB,operational support base
-OSCP,Operational Support Centre Pacific 
 OSEER,on-site establishment evaluation review
-OSM,Operational Service Medal
-OSS,occupation specialty specification 
 OSVB,Occupation Specification Validation Board
 OTC,officer in tactical command
 OTM,officier technicien en munitions
@@ -1393,11 +1254,9 @@ PAR,precision approach radar
 PAS,protected aircraft shelter
 PC,performance check
 PROCOL,protection collective
-PCRA,post-combat reintegration allowance
 PCRA,Project Complexity and Risk Assessment
 PEN,personal emergency notification
 PERO,physical education and recreation officer
-Pers Svcs O,personnel services officer
 PCF,primary combat function
 PFTPS,previous full-time paid service
 PGM,precision guided munition
@@ -1407,16 +1266,13 @@ photo,photograph
 photo,photographie
 photo,photography
 PI,photographic interpretation
-PI,point initial
 PIS,photographic interpretation section
-PIU,photographic interpretation unit
 Pl Comd,platoon commander
 PLF,parachute landing fall
 PLQ,primary leadership qualification
 PLS,palletized loading system
 PMC,president of the mess committee
 PMIR,Preventive Maintenance Inspection Report
-PMIS,Personnel Management Information System
 PMO,project management office
 PMO,Prime Minister’s Office
 PMRS,particularized maintenance and repair specification
@@ -1427,7 +1283,6 @@ PO 1,"petty officer, 1st class"
 PO 2,"petty officer, 2nd class"
 POAC,provisional operational airworthiness clearance
 POCT,Presiding Officer Certification Training
-POD,port of debarkation
 POE,port of embarkation
 POMV,privately-owned motor vehicle
 POR,post-operation report
@@ -1445,15 +1300,11 @@ prod,products
 Proj O,project officer
 PRR,Performance Review Report
 PSO,Primary Standardization Office
-PSO,peace support operation
 PSO,personnel selection officer
 PsyOps,psychological operations
 Psel Branch,Personnel Selection Branch
-PUP,pick-up point
-QA,quality assurance
 QAWC,Quality Assurance Workcentre
 QCA,Queen Charlotte Armoury
-QHM,Queen’s harbour master
 QHM Halifax,Queen’s Harbour Master Halifax
 QRF,quick reaction force
 R Regina Rif,The Royal Regina Rifles
@@ -1462,7 +1313,6 @@ R&O,repair and overhaul
 RA,radius of action
 RA,reinforced alert
 RA,restricted area
-RACOM,rear area command
 Rad SO,radiation safety officer
 RAP,rocket-assisted projectile
 RAS,replenishment at sea
@@ -1480,20 +1330,16 @@ RCCS,Royal Canadian Corps of Signals
 RCHA,Royal Canadian Horse Artillery
 RCIS Borden,Regional Cadet Instructor School Borden
 RCIS Edmonton,Regional Cadet Instructor School Edmonton
-RCIS Esquimalt,Regional Cadet Instructor School Esquimalt
 RCIS Halifax,Regional Cadet Instructor School Halifax
 RCLS,Royal Canadian Logistics Service
 RCMP,Royal Canadian Mounted Police
 RCMP HQ,RCMP Headquarters
 RCMP HQ,Royal Canadian Mounted Police Headquarters
 RCO,range control officer
-RCPO,regimental command post officer
 RCR,The Royal Canadian Regiment
 RCSU Northern,Regional Cadet Support Unit (Northern)
-RD,radius of damage
 rd,round
 RDAO VEND ADM(ST),Regional Departmental Accounting Office for Vendors – Assistant Deputy Minister (Science and Technology)
-RDF,radio direction-finder
 RDP,record of disciplinary proceedings
 RDS,ready duty ship
 rec,recover
@@ -1506,12 +1352,10 @@ rel,release
 Reloc O,relocation officer
 REL S,Reliability Screening
 replen,replenish
-Reqrs O,requirements officer
 Res F,Reserve Force
 Res FPP,Reserve Force Pension Plan
 restd,restricted
 RGS Eastern,Regional Gliding School (Eastern)
-Rhd,railhead
 RHFC,Royal Highland Fusiliers of Canada
 RHLI Band,The Royal Hamilton Light Infanty (Wentworth Regiment) Band
 RHU,replacement holding unit
@@ -1519,16 +1363,13 @@ RI,radiation intensity
 RI,recorded information
 RIA,recruiting information aid
 RIPL,reconnaissance and interdiction planning line
-RL,rocket launcher
 RM Rang,The Rocky Mountain Rangers
-rnf,reinforcing
 RNfldR,Royal Newfoundland Regiment
 RNRS,Remoting of naval radio stations
 RO,recruiting office
 RO,reference object
 RO,routine order
 ROA,restricted operations area
-ROEAUTH,rules of engagement authorization
 ROTP,Regular Officer Training Plan
 ROUTP,Reserve Officer University Training Plan
 RP,reporting post
@@ -1539,23 +1380,18 @@ RRB,radio rebroadcast station
 RRC,rapid reaction corps
 RRTR,reduced range training round
 RRF,rapid reaction force
-RS,radius of safety
-RSG,rear support group
 RSO,range safety officer
 RSO,regimental survey officer
-RT,radio-telephony
 RT,radius of target
 RTA,Ranges and Training Areas
 RTO,railway traffic officer
 RTO,railway transport officer
-RTT,radio-teletype
 RTU,returned to unit
 RWS,relative weight strength
 S area,search area
 S EW O,squadron electronic warfare officer
 S of F,sector of fire
 S Ops O,squadron operations officer
-S OR,Screening Orderly Room
 SC,Star of Courage
 SMV,Star of Military Valour
 s/off,sous-officier
@@ -1577,7 +1413,6 @@ SARSAT system,search and rescue satellite aided tracking system
 SASP,special ammunition supply point
 SAST,Strategic Analysis Support Tool
 SAT,strategic advisory team
-SAV,staff assistance visit
 S Bay,Édifice Shirley’s Bay
 S Bay,Shirley’s Bay Building
 SBC,safe backing course
@@ -1590,7 +1425,6 @@ SCTF,Standing Contingency Task Force
 SCW,Strategic Core Watch
 SDA,sea duty allowance
 SDA,special duty area
-SDB,service detention barrack
 SDO,signal dispatch office
 SDO,signal despatch office
 SDO,special duty operation
@@ -1623,7 +1457,6 @@ SMO,support to military operations
 SN,service number
 SNAC,serial number accounting and control
 Snr WO,senior warrant officer
-SO,semi-officiel
 SO,staff officer
 SO Comms,staff officer communications
 SO Doc,staff officer doctrine
@@ -1639,18 +1472,15 @@ SofSP,Surveillance of Space Project
 SOG,Special Operations Group
 SOL,second official language
 SOLET,Second Official Language Education and Training 
-SOM,Saskatchewan Order of Merit
 son,section
 SOODO,Standing Operations Order for Domestic Operations
 SOP,standing operating procedure
 SOP,standard operating procedures
 SOR,statement of ordinary residence
-SOR,statement of requirement
 SOS,struck off strength
 SPCO,Special Programmes Coordination Office
 SPCO,Special Programmes Coordination Officer
 SPDB,service prison and detention barracks
-spec,specialty
 Spec Proj O,special project officer
 spec staff,specialist staff
 SP how,self-propelled howitzer
@@ -1661,22 +1491,16 @@ SRAAW,short-range anti-armour weapon
 SRAM,short-range attack missile
 SRARM,short-range anti-radiation missile
 SRBM,short-range ballistic missile
-Srg,sound-ranging
 sr offrs,senior officers
 SRR,Supplementary Ready Reserve
 SRTA,short-range transport aircraft
 SRTF,Strategic Reserve Task Force
 sr WO,senior warrant officer
-SS,surface-to-surface
-SSE,short service engagement
-SSN,nuclear attack submarine
 SSN,nuclear-powered attack submarine
 SSO,senior staff officer
 SSR,security sector reform
 SSX,single-sided exercise
 S&T,supply and transport
-STAFFEX,staff exercise
-STANO,"surveillance, target acquisition and night observation"
 STARTEX,start of the exercise
 stat,statistics
 STC,simulation training centre
@@ -1685,13 +1509,9 @@ STO Chief,Special Technical Operations Chief
 STOL,short take-off and landing
 STRIKWARN,nuclear strike warning
 SUBMA,submarine allowance
-SUBROC,submarine rocket
-sup,supply
 Sup O,supply officer
 sup offr,superior officer
-SUPINTREP,supplementary intelligence report
 Supp Res,Supplementary Reserve
-surg,surgery
 svc,service
 svc,serviceable
 svc info,services d’information
@@ -1708,7 +1528,6 @@ tac hel,tactical helicopter
 Tac School,Tactics School
 tacan,tactical air navigation 
 TACOM,theatre area command
-TACP,tactical air control party
 TACS,tactical air control system
 TAF,tactical air force
 TAG,tactical aviation group
@@ -1728,7 +1547,6 @@ TCV,troop-carrying vehicle
 TD,temporary docket
 TD,temporary duty
 TDAN,Technical Data Action Notice
-TDBG,Territorial Defence Battalion Group
 TDO,training development officer
 TE,training establishment
 tech,technical
@@ -1736,9 +1554,7 @@ tel,telephone
 telecomm,telecommunications
 Telecomm O,telecommunication officer
 temp,temporary
-ter,terrain
 TEWT,tactical exercise without troops
-TF Comd,task force commander
 tfmn,transformation
 Tfmn Tm,Transformation Team
 TH,transport helicopter
@@ -1774,7 +1590,6 @@ Trg Clk,training clerk
 trg dev,training development
 Trg Dev Branch,Training Development Branch
 Trg O,training officer
-trk,track
 TSAT,Transformation Staff Action Team
 TSC,Transformation Steering Committee
 TSG,Transformation Steering Group
@@ -1791,13 +1606,12 @@ ULO,university liaison officer
 UN,United Nations
 UNFICYP,United Nations Force in Cyprus
 UNGOMAP,United Nations Good Offices Mission in Afghanistan and Pakistan
+unk,unknown
 UNTSO,United Nations Truce Supervision Organization in Palestine
 US/USA,United States
-USS,unit security supervisor
 UTPNCM,University Training Plan – Non Commissioned Members
 UTPO,University Training Plan – Officers
 UTTH,utility tactical transport helicopter
-UXB,unexploded bomb
 VCDS,Vice Chief of the Defence Staff
 VCP,vehicle collecting point
 veh,vehicle
@@ -1828,7 +1642,6 @@ W Log O,wing logistics officer
 W Met O,wing meteorological officer
 W Pers Admin O,wing personnel administration officer
 W Sup O,wing supply officer
-W Surg,wing surgeon
 W Tn O,wing transportation officer
 WA,waiting area
 WATCO,wing air traffic control officer
@@ -1840,19 +1653,17 @@ West NSR,The West Nova Scotia Regiment
 WFC,wing fire chief
 WFSO,wing flight safety officer
 WGSO,wing general safety officer
-wh,wheel
 Whitehorse Cdt STC,Whitehorse Cadet Summer Training Centre
 white SA,white situational awareness
 WIA,wounded in action
-wksp,workshop
 WLEO,wing logistics and engineering officer
 WMD,weapon of mass destruction
 WMRV,wheeled maintenance and recovery vehicle
 WO,warrant officer
+WP,water point
 Wpns O,weapons officer
 WPSO,wing personnel selection officer
 WRT,with regards to
-ws,warship
 WS,water supply
 WSAMPO,wing security and military police officer
 WSR,weapon system releaser
@@ -1860,4 +1671,3 @@ WSWO,wing social welfare officer
 WTISO,wing telecommunications and information services officer
 XO,executive officer
 YFR,yearly flying rate
-Z har,ZULU harbour
