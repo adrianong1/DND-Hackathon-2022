@@ -24,3 +24,16 @@ chrome.contextMenus.onClicked.addListener((data, tab) => {
         }
     }
 });
+
+// load default settings
+chrome.storage.sync.get("enable-english", async ({"enable-english": enableEnglish}) => {
+    if (enableEnglish == undefined) {
+        chrome.storage.sync.set({"enable-english": true});
+    }
+});
+
+chrome.storage.sync.get("enable-french", async ({"enable-french": enableFrench}) => {
+    if (enableFrench == undefined) {
+        chrome.storage.sync.set({"enable-french": true});
+    }
+});
