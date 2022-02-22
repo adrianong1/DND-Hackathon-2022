@@ -21,7 +21,7 @@ We utilized the [National Defence and the Canadian Armed Forces Manual of Abbrev
 
 ### Setting up the Extension
 1. Open the Google Chrome application, then click on the extensions button on the top right of your window (it looks like a puzzle icon), then click on <i>Manage Extensions</i>. Alternatively, you can copy and paste `chrome://extensions/` onto your address bar.
-2. Once the Google Chrome's extension page has opened, click on the <i>Load unpacked</i> button on the top left of your window.
+2. Once the Google Chrome's extension page has opened, turn on the <i>Developer mode</i> setting, and then click on the <i>Load unpacked</i> button.
 3. After the file explorer appears, go to your directory `path/to/repository/DND-Hackathon-2022/src/`, then click the <i>Select Folder</i> button.
 4. The extension should now appear alongside your other extensions!
 
